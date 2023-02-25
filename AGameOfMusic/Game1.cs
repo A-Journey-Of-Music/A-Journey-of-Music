@@ -6,7 +6,7 @@ namespace AGameOfMusic;
 
 public class Game1 : Game
 {
-    Texture2D adventurerTexture
+    Texture2D adventurerTexture;
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
 
