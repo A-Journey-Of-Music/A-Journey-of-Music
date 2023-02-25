@@ -7,6 +7,8 @@ namespace AGameOfMusic;
 public class Game1 : Game
 {
     Texture2D adventurerTexture;
+    Vector2 adventurerPosition;
+    float adventurerSpeed;
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
 
@@ -20,7 +22,9 @@ public class Game1 : Game
     protected override void Initialize()
     {
         // TODO: Add your initialization logic here
-
+        adventurerPosition = new Vector2(_graphics.PreferredBackBufferWidth / 2,
+        _graphics.PreferredBackBufferHeight / 2);
+        adventurerSpeed = 100f;
         base.Initialize();
     }
 
@@ -48,7 +52,7 @@ public class Game1 : Game
 
         // TODO: Add your drawing code here
         _spriteBatch.Begin();
-        _spriteBatch.Draw(adventurerTexture, new Vector2(0, 0), Color.White);
+        _spriteBatch.Draw(adventurerTexture, adventurerPosition, null, Color.White, 0f, new Vector2(adventurerTexture.Width / 2, adventurerTexture.Height / 2),Vector2.One,SpriteEffects.None,0f);
         _spriteBatch.End();
 
         base.Draw(gameTime);
