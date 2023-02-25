@@ -1,0 +1,5 @@
+/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/obj/Debug/net6.0/AGameOfMusic.csproj.AssemblyReference.cache
+/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/obj/Debug/net6.0/AGameOfMusic.GeneratedMSBuildEditorConfig.editorconfig
+/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/obj/Debug/net6.0/AGameOfMusic.AssemblyInfoInputs.cache
+/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/obj/Debug/net6.0/AGameOfMusic.AssemblyInfo.cs
+/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/obj/Debug/net6.0/AGameOfMusic.csproj.CoreCompileInputs.cache
