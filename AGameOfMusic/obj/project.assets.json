@@ -92,6 +92,18 @@
           }
         }
       },
+      "MonoGame.Extended.Animations/3.7.0": {
+        "type": "package",
+        "dependencies": {
+          "MonoGame.Extended": "3.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MonoGame.Extended.Animations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MonoGame.Extended.Animations.dll": {}
+        }
+      },
       "MonoGame.Extended.Content.Pipeline/3.8.0": {
         "type": "package",
         "dependencies": {
@@ -317,6 +329,18 @@
         "monogame.extended.nuspec"
       ]
     },
+    "MonoGame.Extended.Animations/3.7.0": {
+      "sha512": "UuZwWK4etHTkY/ZctazyBNL2orVTUdw3GtPPs09onU+izBLxO3/PqooqfRXjWEV/iHT+bocjLUucw48ZwACNMg==",
+      "type": "package",
+      "path": "monogame.extended.animations/3.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/MonoGame.Extended.Animations.dll",
+        "monogame.extended.animations.3.7.0.nupkg.sha512",
+        "monogame.extended.animations.nuspec"
+      ]
+    },
     "MonoGame.Extended.Content.Pipeline/3.8.0": {
       "sha512": "Kt21Ux4Hdkgm7FMiGhQ7C0+rMS0wMQM63TxWsNBa8DjEDwX1pKIUORxvQBgh89J4TiMSmmK+U6VfxV2kh5PPpg==",
       "type": "package",
@@ -440,6 +464,7 @@
     "net6.0": [
       "MonoGame.Content.Builder.Task >= 3.8.1.303",
       "MonoGame.Extended >= 3.8.0",
+      "MonoGame.Extended.Animations >= 3.7.0",
       "MonoGame.Extended.Content.Pipeline >= 3.8.0",
       "MonoGame.Framework.DesktopGL >= 3.8.1.303"
     ]
@@ -488,6 +513,10 @@
           "MonoGame.Extended": {
             "target": "Package",
             "version": "[3.8.0, )"
+          },
+          "MonoGame.Extended.Animations": {
+            "target": "Package",
+            "version": "[3.7.0, )"
           },
           "MonoGame.Extended.Content.Pipeline": {
             "target": "Package",

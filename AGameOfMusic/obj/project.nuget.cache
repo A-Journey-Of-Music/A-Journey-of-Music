@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "3xSs538SAmx2+bg3XGecNiNVaKezM7BC8Buy5zPqjo51uNdTd8fA0HoMn+2QtmljFgOAQyLvR39CY4sqh8gh1Q==",
+  "dgSpecHash": "leYJAcpx6SgKXL5f8eB2nqjwAITizotDv1v4PvMvHy31hyBfeKAKUM4+YxeRMcmO0IUSrxzfgHJVlIVxrLG1dg==",
   "success": true,
   "projectFilePath": "/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/AGameOfMusic.csproj",
   "expectedPackageFiles": [
     "/home/janneumann/.nuget/packages/autofac/5.2.0/autofac.5.2.0.nupkg.sha512",
     "/home/janneumann/.nuget/packages/monogame.content.builder.task/3.8.1.303/monogame.content.builder.task.3.8.1.303.nupkg.sha512",
     "/home/janneumann/.nuget/packages/monogame.extended/3.8.0/monogame.extended.3.8.0.nupkg.sha512",
+    "/home/janneumann/.nuget/packages/monogame.extended.animations/3.7.0/monogame.extended.animations.3.7.0.nupkg.sha512",
     "/home/janneumann/.nuget/packages/monogame.extended.content.pipeline/3.8.0/monogame.extended.content.pipeline.3.8.0.nupkg.sha512",
     "/home/janneumann/.nuget/packages/monogame.extended.graphics/3.8.0/monogame.extended.graphics.3.8.0.nupkg.sha512",
     "/home/janneumann/.nuget/packages/monogame.extended.tiled/3.8.0/monogame.extended.tiled.3.8.0.nupkg.sha512",
