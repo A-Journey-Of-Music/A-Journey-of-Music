@@ -42,6 +42,45 @@ public class Game1 : Game
             Exit();
 
         // TODO: Add your update logic here
+        var kstate = Keyboard.GetState();
+
+        if (kstate.IsKeyDown(Keys.Up))
+        {
+            adventurerPosition.Y -= adventurerSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+        }
+
+        if (kstate.IsKeyDown(Keys.Down))
+        {
+            adventurerPosition.Y += adventurerSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+        }
+
+        if (kstate.IsKeyDown(Keys.Left))
+        {
+            adventurerPosition.X -= adventurerSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+        }
+
+        if (kstate.IsKeyDown(Keys.Right))
+        {
+            adventurerPosition.X += adventurerSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+        }
+
+        if (adventurerPosition.X > _graphics.PreferredBackBufferWidth - adventurerTexture.Width / 2)
+        {
+            adventurerPosition.X = _graphics.PreferredBackBufferWidth - adventurerTexture.Width / 2;
+        }
+        else if (adventurerPosition.X < adventurerTexture.Width / 2)
+        {
+            adventurerPosition.X = adventurerTexture.Width / 2;
+        }
+
+        if (adventurerPosition.Y > _graphics.PreferredBackBufferHeight - adventurerTexture.Height / 2)
+        {
+            adventurerPosition.Y = _graphics.PreferredBackBufferHeight - adventurerTexture.Height / 2;
+        }
+        else if (adventurerPosition.Y < adventurerTexture.Height / 2)
+        {
+            adventurerPosition.Y = adventurerTexture.Height / 2;
+        }
 
         base.Update(gameTime);
     }
@@ -52,7 +91,7 @@ public class Game1 : Game
 
         // TODO: Add your drawing code here
         _spriteBatch.Begin();
-        _spriteBatch.Draw(adventurerTexture, adventurerPosition, null, Color.White, 0f, new Vector2(adventurerTexture.Width / 2, adventurerTexture.Height / 2),Vector2.One,SpriteEffects.None,0f);
+        _spriteBatch.Draw(adventurerTexture, adventurerPosition, null, Color.White, 0f, new Vector2(adventurerTexture.Width / 2, adventurerTexture.Height / 2), Vector2.One, SpriteEffects.None, 0f);
         _spriteBatch.End();
 
         base.Draw(gameTime);
