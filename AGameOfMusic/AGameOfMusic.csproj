@@ -19,6 +19,7 @@
     <EmbeddedResource Include="Icon.bmp" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="MonoGame.Aseprite" Version="4.0.3" />
     <PackageReference Include="MonoGame.Extended" Version="3.8.0" />
     <PackageReference Include="MonoGame.Extended.Animations" Version="3.7.0" />
     <PackageReference Include="MonoGame.Extended.Content.Pipeline" Version="3.8.0" />

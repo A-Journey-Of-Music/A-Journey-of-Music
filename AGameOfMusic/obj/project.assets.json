@@ -11,6 +11,18 @@
           "lib/netstandard2.1/Autofac.dll": {}
         }
       },
+      "MonoGame.Aseprite/4.0.3": {
+        "type": "package",
+        "dependencies": {
+          "MonoGame.Framework.DesktopGL": "3.8.1.303"
+        },
+        "compile": {
+          "lib/net6.0/MonoGame.Aseprite.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/MonoGame.Aseprite.dll": {}
+        }
+      },
       "MonoGame.Content.Builder.Task/3.8.1.303": {
         "type": "package",
         "build": {
@@ -279,6 +291,22 @@
         "lib/netstandard2.1/Autofac.xml"
       ]
     },
+    "MonoGame.Aseprite/4.0.3": {
+      "sha512": "B5+D9jAIQMHRjiu5si6k3dK949pcJ3MPcMGXOgk7Ze/e2OHK/O15iwp6C2dxWmythvK+XjIxI0TyTtyEAyz5yQ==",
+      "type": "package",
+      "path": "monogame.aseprite/4.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "content/Monogame.Aseprite.Content.Pipeline.dll",
+        "icon.png",
+        "lib/net6.0/MonoGame.Aseprite.dll",
+        "lib/net6.0/MonoGame.Aseprite.xml",
+        "monogame.aseprite.4.0.3.nupkg.sha512",
+        "monogame.aseprite.nuspec"
+      ]
+    },
     "MonoGame.Content.Builder.Task/3.8.1.303": {
       "sha512": "9Ilzzje62LhWElbPNEl7vh7XsRSbze+lvCJdZtTZUGu48FRgvYN6THURwIB9PN98EI33/Wnf6iuShNUtD7hL4Q==",
       "type": "package",
@@ -462,6 +490,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "MonoGame.Aseprite >= 4.0.3",
       "MonoGame.Content.Builder.Task >= 3.8.1.303",
       "MonoGame.Extended >= 3.8.0",
       "MonoGame.Extended.Animations >= 3.7.0",
@@ -506,6 +535,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "MonoGame.Aseprite": {
+            "target": "Package",
+            "version": "[4.0.3, )"
+          },
           "MonoGame.Content.Builder.Task": {
             "target": "Package",
             "version": "[3.8.1.303, )"
