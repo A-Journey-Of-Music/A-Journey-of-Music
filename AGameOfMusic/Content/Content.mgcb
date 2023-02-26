@@ -1298,6 +1298,18 @@
 /processorParam:TextureFormat=Color
 /build:adventurer-swrd-shte-03.png
 
+#begin adventurer-v1.5-Sheet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:adventurer-v1.5-Sheet.png
+
 #begin adventurer-wall-slide-00.png
 /importer:TextureImporter
 /processor:TextureProcessor
