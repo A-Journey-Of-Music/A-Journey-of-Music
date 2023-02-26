@@ -7,7 +7,6 @@ namespace AGameOfMusic;
 public class Game1 : Game
 {
     Texture2D adventurerIdle00Texture;
-    Texture2D adventurerIdle01Texture;
     Vector2 adventurerPosition;
     float adventurerSpeed;
     private GraphicsDeviceManager _graphics;
@@ -32,7 +31,6 @@ public class Game1 : Game
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
         adventurerIdle00Texture = Content.Load<Texture2D>("adventurer-idle-00");
-        adventurerIdle01Texture = Content.Load<Texture2D>("adventurer-idle-01");
 
         // TODO: use this.Content to load your game content here
     }
@@ -98,7 +96,6 @@ public class Game1 : Game
         // TODO: Add your drawing code here
         _spriteBatch.Begin();
         _spriteBatch.Draw(adventurerIdle00Texture, adventurerPosition, null, Color.White, 0f, new Vector2(adventurerIdle00Texture.Width / 2, adventurerIdle00Texture.Height / 2), Vector2.One, SpriteEffects.None, 0f);
-        _spriteBatch.Draw(adventurerIdle01Texture, adventurerPosition, null, Color.White, 0f, new Vector2(adventurerIdle01Texture.Width / 2, adventurerIdle01Texture.Height / 2), Vector2.One, SpriteEffects.None, 0f);
         _spriteBatch.End();
 
         base.Draw(gameTime);
