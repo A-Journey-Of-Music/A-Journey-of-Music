@@ -2,7 +2,7 @@
   "meta": {
     "version": "0.6.7"
   },
-  "savePath": "",
+  "savePath": "/home/janneumann/Downloads",
   "images": [
     {
       "name": "adventurer-run-00.png",
@@ -46,9 +46,9 @@
     "tinifyKey": "",
     "scale": 1,
     "filter": "none",
-    "exporter": "custom",
+    "exporter": "JSON (array)",
     "fileName": "pack-result",
-    "savePath": "",
+    "savePath": "/home/janneumann/Downloads",
     "width": 2048,
     "height": 2048,
     "fixedSize": false,

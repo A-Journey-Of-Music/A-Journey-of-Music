@@ -374,6 +374,11 @@
 /processorParam:TextureFormat=Color
 /build:adventurer-attack3-05.png
 
+#begin adventurer-bow.aseprite
+/importer:
+/processor:
+/build:adventurer-bow.aseprite
+
 #begin adventurer-cast-00.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -1333,4 +1338,9 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:adventurer-wall-slide-01.png
+
+#begin adventurer.aseprite
+/importer:
+/processor:
+/build:adventurer.aseprite
 
