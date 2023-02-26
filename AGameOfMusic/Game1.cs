@@ -1,6 +1,9 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using MonoGame.Aseprite;
+using MonoGame.Aseprite.Content.Processors;
+using MonoGame.Aseprite.Tilemaps;
 
 namespace AGameOfMusic;
 
@@ -8,6 +11,7 @@ public class Game1 : Game
 {
     Texture2D adventurerIdle00Texture;
     Vector2 adventurerPosition;
+    private AnimatedTilemap _animatedAdventurer;
     float adventurerSpeed;
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
@@ -30,6 +34,8 @@ public class Game1 : Game
     protected override void LoadContent()
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
+        AsepriteFile aseFile = AsepriteFile.Load("AGameOfMusic/Content/adventurer.aseprite");
+        _animatedAdventurer = AnimatedTilemapProcessor.Process(GraphicsDevice, aseFile);
         adventurerIdle00Texture = Content.Load<Texture2D>("adventurer-idle-00");
 
         // TODO: use this.Content to load your game content here
@@ -39,6 +45,8 @@ public class Game1 : Game
     {
         if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
             Exit();
+
+        _animatedAdventurer.Update(gameTime);
 
         // TODO: Add your update logic here
         var kstate = Keyboard.GetState();
@@ -96,6 +104,7 @@ public class Game1 : Game
         // TODO: Add your drawing code here
         _spriteBatch.Begin();
         _spriteBatch.Draw(adventurerIdle00Texture, adventurerPosition, null, Color.White, 0f, new Vector2(adventurerIdle00Texture.Width / 2, adventurerIdle00Texture.Height / 2), Vector2.One, SpriteEffects.None, 0f);
+        _animatedAdventurer.Draw(_spriteBatch, position: Vector2.Zero, color: Color.White);
         _spriteBatch.End();
 
         base.Draw(gameTime);

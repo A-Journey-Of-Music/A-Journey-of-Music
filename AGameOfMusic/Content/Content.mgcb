@@ -9,7 +9,8 @@
 /compress:False
 
 #-------------------------------- References --------------------------------#
-/reference: ~/.nuget/packages/monogame-aseprite/4.0.3/content/MonoGame.Aseprite.Content.Pipeline.dll
+
+/reference:../../../../../../../../../.nuget/packages/monogame.aseprite/4.0.3/content/Monogame.Aseprite.Content.Pipeline.dll
 
 #---------------------------------- Content ---------------------------------#
 
@@ -374,8 +375,8 @@
 /build:adventurer-attack3-05.png
 
 #begin adventurer-bow.aseprite
-/importer:
-/processor:
+/importer:AsepriteFileContentImporter
+/processor:AsepriteFileContentProcessor
 /build:adventurer-bow.aseprite
 
 #begin adventurer-cast-00.png
@@ -1339,7 +1340,7 @@
 /build:adventurer-wall-slide-01.png
 
 #begin adventurer.aseprite
-/importer:
-/processor:
+/importer:AsepriteFileContentImporter
+/processor:AsepriteFileContentProcessor
 /build:adventurer.aseprite
 
