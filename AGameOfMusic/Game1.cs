@@ -34,10 +34,10 @@ public class Game1 : Game
     protected override void LoadContent()
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
-        AsepriteFile aseFile = AsepriteFile.Load("AGameOfMusic/Content/adventurer.aseprite");
-        _animatedAdventurer = AnimatedTilemapProcessor.Process(GraphicsDevice, aseFile);
+        
         adventurerIdle00Texture = Content.Load<Texture2D>("adventurer-idle-00");
-
+        AsepriteFile aseFile = Content.Load<AsepriteFile>("adventurer");
+        _animatedAdventurer = AnimatedTilemapProcessor.Process(GraphicsDevice, aseFile);
         // TODO: use this.Content to load your game content here
     }
 
