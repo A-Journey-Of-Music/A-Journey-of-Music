@@ -9,7 +9,7 @@
 /compress:False
 
 #-------------------------------- References --------------------------------#
-
+/reference: ~/.nuget/packages/monogame-aseprite/4.0.3/content/MonoGame.Aseprite.Content.Pipeline.dll
 
 #---------------------------------- Content ---------------------------------#
 
