@@ -56,16 +56,6 @@ public class Game1 : Game
 
         }
 
-        if (kstate.IsKeyDown(Keys.Up))
-        {
-            adventurerPosition.Y -= adventurerSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
-        }
-
-        if (kstate.IsKeyDown(Keys.Down))
-        {
-            adventurerPosition.Y += adventurerSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
-        }
-
         if (kstate.IsKeyDown(Keys.Left))
         {
             adventurerPosition.X -= adventurerSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
