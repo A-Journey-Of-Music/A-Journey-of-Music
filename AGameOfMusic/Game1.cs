@@ -1,18 +1,12 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using MonoGame.Aseprite;
-using MonoGame.Aseprite.Content.Processors;
-using MonoGame.Aseprite.Tilemaps;
 
 namespace AGameOfMusic;
 
 public class Game1 : Game
 {
-    Texture2D adventurerIdle00Texture;
-    Vector2 adventurerPosition;
-    private AnimatedTilemap _animatedAdventurer;
-    float adventurerSpeed;
+    GameManager _gameManager;
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
 
@@ -26,18 +20,13 @@ public class Game1 : Game
     protected override void Initialize()
     {
         // TODO: Add your initialization logic here
-        adventurerPosition = new Vector2(_graphics.PreferredBackBufferWidth / 2, _graphics.PreferredBackBufferHeight / 2);
-        adventurerSpeed = 100f;
+        _gameManager = new GameManager();
         base.Initialize();
     }
 
     protected override void LoadContent()
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
-        
-        adventurerIdle00Texture = Content.Load<Texture2D>("adventurer-idle-00");
-        AsepriteFile aseFile = Content.Load<AsepriteFile>("adventurer");
-        _animatedAdventurer = AnimatedTilemapProcessor.Process(GraphicsDevice, aseFile);
         // TODO: use this.Content to load your game content here
     }
 
@@ -45,45 +34,6 @@ public class Game1 : Game
     {
         if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
             Exit();
-
-        _animatedAdventurer.Update(gameTime);
-
-        // TODO: Add your update logic here
-        var kstate = Keyboard.GetState();
-
-        if (kstate.GetPressedKeyCount() == 0)
-        {
-
-        }
-
-        if (kstate.IsKeyDown(Keys.Left))
-        {
-            adventurerPosition.X -= adventurerSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
-        }
-
-        if (kstate.IsKeyDown(Keys.Right))
-        {
-            adventurerPosition.X += adventurerSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
-        }
-
-        if (adventurerPosition.X > _graphics.PreferredBackBufferWidth - adventurerIdle00Texture.Width / 2)
-        {
-            adventurerPosition.X = _graphics.PreferredBackBufferWidth - adventurerIdle00Texture.Width / 2;
-        }
-        else if (adventurerPosition.X < adventurerIdle00Texture.Width / 2)
-        {
-            adventurerPosition.X = adventurerIdle00Texture.Width / 2;
-        }
-
-        if (adventurerPosition.Y > _graphics.PreferredBackBufferHeight - adventurerIdle00Texture.Height / 2)
-        {
-            adventurerPosition.Y = _graphics.PreferredBackBufferHeight - adventurerIdle00Texture.Height / 2;
-        }
-        else if (adventurerPosition.Y < adventurerIdle00Texture.Height / 2)
-        {
-            adventurerPosition.Y = adventurerIdle00Texture.Height / 2;
-        }
-
         base.Update(gameTime);
     }
 
@@ -93,8 +43,6 @@ public class Game1 : Game
 
         // TODO: Add your drawing code here
         _spriteBatch.Begin();
-        _spriteBatch.Draw(adventurerIdle00Texture, adventurerPosition, null, Color.White, 0f, new Vector2(adventurerIdle00Texture.Width / 2, adventurerIdle00Texture.Height / 2), Vector2.One, SpriteEffects.None, 0f);
-        _animatedAdventurer.Draw(_spriteBatch, position: Vector2.Zero, color: Color.White);
         _spriteBatch.End();
 
         base.Draw(gameTime);
