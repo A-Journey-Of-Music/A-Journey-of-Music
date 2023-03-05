@@ -16,16 +16,16 @@ public static class InputManager{
         Movement = 0;
         _direction = Vector2.Zero;
 
-        if(keyboardState.IsKeyDown(Keys.W) || keyboardState.IsKeyDown(Keys.Down)) _direction.Y--;
-        if(keyboardState.IsKeyDown(Keys.S) || keyboardState.IsKeyDown(Keys.Up)) _direction.Y++;
+        if(keyboardState.IsKeyDown(Keys.W) || keyboardState.IsKeyDown(Keys.Up)) _direction.Y--;
+        if(keyboardState.IsKeyDown(Keys.S) || keyboardState.IsKeyDown(Keys.Down)) _direction.Y++;
         if(keyboardState.IsKeyDown(Keys.A)|| keyboardState.IsKeyDown(Keys.Left)) {
             _direction.X--;
             Movement = _speed;
-        };
+        }
         if(keyboardState.IsKeyDown(Keys.D)|| keyboardState.IsKeyDown(Keys.Right)) {
             _direction.X++;
             Movement = -_speed;
-        };
+        }
 
         MouseClicked = (Mouse.GetState().LeftButton == ButtonState.Pressed) && (_lastMouseState.LeftButton == ButtonState.Released);
         _lastMouseState = Mouse.GetState();

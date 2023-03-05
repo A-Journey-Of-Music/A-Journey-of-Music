@@ -19,6 +19,10 @@ public class Game1 : Game
 
     protected override void Initialize()
     {
+        //Custom Window resizing
+        _graphics.PreferredBackBufferWidth= 500;
+        _graphics.PreferredBackBufferHeight= 300;
+        _graphics.ApplyChanges();
         // TODO: Add your initialization logic here
         Globals.Content = Content;
         base.Initialize();
@@ -29,7 +33,7 @@ public class Game1 : Game
         _spriteBatch = new SpriteBatch(GraphicsDevice);
         Globals.SpriteBatch = _spriteBatch;
         // TODO: use this.Content to load your game content here
-        _gameManager = new();
+        _gameManager = new(_graphics.PreferredBackBufferHeight, _graphics.PreferredBackBufferWidth);
     }
 
     protected override void Update(GameTime gameTime)
