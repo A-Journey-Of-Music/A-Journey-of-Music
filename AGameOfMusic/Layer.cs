@@ -29,9 +29,12 @@ public class Layer
         _position.X += movement * _moveScale * Globals.ElapsedSeconds;
         _position.X %= _texture.Width;
 
-        if(_position.X >= 0){
+        if (_position.X >= 0)
+        {
             _position2.X = _position.X - _texture.Width;
-        }else{
+        }
+        else
+        {
             _position2.X = _position.X + _texture.Width;
         }
     }
