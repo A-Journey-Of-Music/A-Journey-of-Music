@@ -9,6 +9,7 @@ public static class InputManager{
     public static Vector2 Direction => _direction;
     public static Vector2 MousePosition => Mouse.GetState().Position.ToVector2();
     public static bool MouseClicked {get; private set;}
+    
     public static void Update(){
         var keyboardState = Keyboard.GetState();
 
