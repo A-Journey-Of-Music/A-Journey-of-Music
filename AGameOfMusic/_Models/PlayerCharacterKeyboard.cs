@@ -10,7 +10,7 @@ public class PlayerCharacterKeyboard : Sprite{
     public void Update(){
         if(InputManager.Direction != Vector2.Zero){
             var dir = Vector2.Normalize(InputManager.Direction);
-            position += dir * speed * Globals.TotalSeconds;
+            position += dir * speed * Globals.ElapsedSeconds;
         }
     }
 }

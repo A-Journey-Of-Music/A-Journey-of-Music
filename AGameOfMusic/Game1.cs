@@ -45,7 +45,7 @@ public class Game1 : Game
         GraphicsDevice.Clear(Color.CornflowerBlue);
 
         // TODO: Add your drawing code here
-        _spriteBatch.Begin();
+        _spriteBatch.Begin(sortMode: SpriteSortMode.FrontToBack);
         _gameManager.Draw();
         _spriteBatch.End();
 

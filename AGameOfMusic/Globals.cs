@@ -4,13 +4,14 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace AGameOfMusic;
 
-public static class Globals{
+public static class Globals
+{
+    public static float ElapsedSeconds { get; set; }
+    public static ContentManager Content { get; set; }
+    public static SpriteBatch SpriteBatch { get; set; }
 
-    public static float TotalSeconds {get; set;}
-    public static ContentManager Content {get; set;}
-    public static SpriteBatch SpriteBatch { get; set;}
-
-    public static void Update(GameTime gt){
-        TotalSeconds = (float)gt.ElapsedGameTime.TotalSeconds;
+    public static void Update(GameTime gt)
+    {
+        ElapsedSeconds = (float)gt.ElapsedGameTime.TotalSeconds;
     }
 }
