@@ -30,15 +30,15 @@ public class Layer
         _position.X %= _texture.Width;
 
         if(_position.X >= 0){
-            _position.X = _position.X - _texture.Width;
+            _position2.X = _position.X - _texture.Width;
         }else{
-            _position.X = _position.X + _texture.Width;
+            _position2.X = _position.X + _texture.Width;
         }
     }
 
     public void Draw()
     {
-        Globals.SpriteBatch.Draw(_texture, _position, null, Color.White, 0, Vector2.Zero, _screenHeight/_texture.Height, SpriteEffects.None, _depth);
-        Globals.SpriteBatch.Draw(_texture, _position2, null, Color.White, 0, Vector2.Zero, _screenHeight/_texture.Height, SpriteEffects.None, _depth);
+        Globals.SpriteBatch.Draw(_texture, _position, null, Color.White, 0, Vector2.Zero, Vector2.One, SpriteEffects.None, _depth);
+        Globals.SpriteBatch.Draw(_texture, _position2, null, Color.White, 0, Vector2.Zero, Vector2.One, SpriteEffects.None, _depth);
     }
 }

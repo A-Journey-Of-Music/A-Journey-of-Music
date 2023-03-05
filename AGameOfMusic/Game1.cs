@@ -20,8 +20,8 @@ public class Game1 : Game
     protected override void Initialize()
     {
         //Custom Window resizing
-        _graphics.PreferredBackBufferWidth= 500;
-        _graphics.PreferredBackBufferHeight= 300;
+        _graphics.PreferredBackBufferWidth=1920;
+        _graphics.PreferredBackBufferHeight= 1080;
         _graphics.ApplyChanges();
         // TODO: Add your initialization logic here
         Globals.Content = Content;
