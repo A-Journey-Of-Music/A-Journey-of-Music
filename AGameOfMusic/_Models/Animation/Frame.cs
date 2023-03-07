@@ -7,16 +7,10 @@ public class Frame{
     
     private readonly Texture2D _texture;
     private Vector2 _position;
-    private float _duration;
 
-    public Frame(Texture2D texture, float duration){
+    public Frame(Texture2D texture){
         _texture = texture;
         _position = Vector2.Zero;
-        _duration = duration;
-    }
-
-    public void Update(){
-
     }
 
     public void Draw(){
