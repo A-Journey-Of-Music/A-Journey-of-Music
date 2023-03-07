@@ -19,10 +19,8 @@ public class AnimationManager{
         }
     }
 
-    public void Draw(){
-        foreach(var animation in _animations){
-            animation.Draw();
-        }
+    public void Draw(string name){
+        _animations.Find(anim => anim._name.Equals(name)).Draw();
     }
 
 
