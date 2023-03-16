@@ -9,9 +9,11 @@ public class GameManager
     private readonly BGManager _bgm = new();
     private readonly int _screenHeight;
     private readonly int _screenWidth;
+    private readonly int _borderThreshhold;
 
     public GameManager(int height, int width)
     {
+        _borderThreshhold = 20;
         _screenHeight = height;
         _screenWidth = width;
         _playerCharacterKeyboard = new(Globals.Content.Load<Texture2D>("adventurer-idle-00"), new(300, 300));
@@ -26,7 +28,7 @@ public class GameManager
     public void Update()
     {
         InputManager.Update();
-        _playerCharacterKeyboard.Update();
+        _playerCharacterKeyboard.Update(_screenHeight, _screenWidth, _borderThreshhold);
         _bgm.Update(InputManager.Movement);
     }
     public void Draw()
