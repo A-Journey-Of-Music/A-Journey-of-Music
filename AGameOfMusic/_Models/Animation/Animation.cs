@@ -30,12 +30,20 @@ public class Animation
         _frames.Add(frame);
     }
 
-    public void Start()
+    public void ToggleAnimation(){
+        if(_active){
+            Stop();
+        }else{
+            Start();
+        }
+    }
+
+    private void Start()
     {
         _active = true;
     }
 
-    public void Stop()
+    private void Stop()
     {
         _active = false;
     }

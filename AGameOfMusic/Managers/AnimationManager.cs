@@ -13,6 +13,10 @@ public class AnimationManager{
         _animations.Add(animation);
     }
 
+    public void ToggleAnimation(string name){
+        _animations.Find(anim => anim._name.Equals(name)).ToggleAnimation();
+    }
+
     public void Update(){
         foreach(var animation in _animations){
             animation.Update();
