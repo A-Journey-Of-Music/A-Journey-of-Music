@@ -1,0 +1,52 @@
+{ "frames": [
+   {
+    "filename": "adventurer-idle-2-00 0.png",
+    "frame": { "x": 0, "y": 0, "w": 50, "h": 37 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 50, "h": 37 },
+    "sourceSize": { "w": 50, "h": 37 },
+    "duration": 100
+   },
+   {
+    "filename": "adventurer-idle-2-00 1.png",
+    "frame": { "x": 50, "y": 0, "w": 50, "h": 37 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 50, "h": 37 },
+    "sourceSize": { "w": 50, "h": 37 },
+    "duration": 100
+   },
+   {
+    "filename": "adventurer-idle-2-00 2.png",
+    "frame": { "x": 100, "y": 0, "w": 50, "h": 37 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 50, "h": 37 },
+    "sourceSize": { "w": 50, "h": 37 },
+    "duration": 100
+   },
+   {
+    "filename": "adventurer-idle-2-00 3.png",
+    "frame": { "x": 150, "y": 0, "w": 50, "h": 37 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 50, "h": 37 },
+    "sourceSize": { "w": 50, "h": 37 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "https://github.com/LibreSprite/LibreSprite/",
+  "version": "1.0",
+  "image": "/home/janneumann/Downloads/Adventurer-1.5/Individual Sprites/adventurer-idle-2-00-sheet.png",
+  "format": "RGBA8888",
+  "size": { "w": 200, "h": 37 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer", "opacity": 255, "blendMode": "normal" }
+  ]
+ }
+}
