@@ -847,7 +847,7 @@
 /processorParam:TextureFormat=Color
 /build:adventurer-idle-03.png
 
-#begin adventurer-idle-2-00-sh/adventurer-idle-2-00-sheet.png
+#begin adventurer-idle-2-00-sheet.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -857,7 +857,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:adventurer-idle-2-00-sh/adventurer-idle-2-00-sheet.png
+/build:adventurer-idle-2-00-sheet.png
 
 #begin adventurer-idle-2-00.png
 /importer:TextureImporter
@@ -943,7 +943,7 @@
 /processorParam:TextureFormat=Color
 /build:adventurer-items-02.png
 
-#begin adventurer-jump-00-sh/adventurer-jump-00-sheet.png
+#begin adventurer-jump-00-sheet.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -953,7 +953,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:adventurer-jump-00-sh/adventurer-jump-00-sheet.png
+/build:adventurer-jump-00-sheet.png
 
 #begin adventurer-jump-00.png
 /importer:TextureImporter
@@ -1051,7 +1051,7 @@
 /processorParam:TextureFormat=Color
 /build:adventurer-ladder-climb-03.png
 
-#begin adventurer-run-00-sh/adventurer-run-00-sheet.png
+#begin adventurer-run-00-sheet.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1061,7 +1061,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:adventurer-run-00-sh/adventurer-run-00-sheet.png
+/build:adventurer-run-00-sheet.png
 
 #begin adventurer-run-00.png
 /importer:TextureImporter
