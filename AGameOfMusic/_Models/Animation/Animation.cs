@@ -1,5 +1,3 @@
-using System;
-using System.Diagnostics;
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
@@ -9,7 +7,6 @@ namespace AGameOfMusic;
 
 public class Animation
 {
-    public string _name { get; set; }
     private readonly Texture2D _texture;
     private readonly List<Rectangle> _sourceRectangles = new();
     private readonly int _frames;
@@ -18,15 +15,15 @@ public class Animation
     private float _frameTimeLeft;
     private bool _active = true;
 
-    public Animation(string name, Texture2D texture, int framesX, float frameTime)
+    public Animation(Texture2D texture, int framesX,int framesY, float frameTime, int row = 2)
     {
-        _name = name;
         _texture = texture;
         _frameTime = frameTime;
         _frameTimeLeft = _frameTime;
         _frames = framesX;
+        _frame = 0;
         var frameWidth = _texture.Width / framesX;
-        var frameHeight = _texture.Height;
+        var frameHeight = _texture.Height / framesY;
 
         for(int i = 0; i < _frames; i++){
             _sourceRectangles.Add(new(i = frameWidth,0,frameWidth, frameHeight));
@@ -56,6 +53,6 @@ public class Animation
     }
 
     public void Draw(Vector2 position){
-        Globals.SpriteBatch.Draw(_texture, position, _sourceRectangles[_frame], Color.White, 0, Vector2.Zero,Vector2.One, SpriteEffects.None, 1);
+        Globals.SpriteBatch.Draw(_texture, position, _sourceRectangles[_frame], Color.White, 0, Vector2.Zero ,Vector2.One, SpriteEffects.None, 1);
     }
 }

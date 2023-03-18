@@ -142,3 +142,6 @@
 /home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/Content/Pixelcity01_layer04.xnb
 /home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/Content/Pixelcity01_layer05.xnb
 /home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/Content/Pixelcity01_layer06.xnb
+/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/Content/adventurer-idle-2-00-sheet.xnb
+/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/Content/adventurer-jump-00-sheet.xnb
+/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/Content/adventurer-run-00-sheet.xnb
