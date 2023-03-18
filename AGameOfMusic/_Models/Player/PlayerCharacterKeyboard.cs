@@ -26,13 +26,12 @@ public class PlayerCharacterKeyboard : Sprite
 
     public void Update(int _screenHeight, int _screenWidth, int _borderThreshhold)
     {
+        _anims.Update(Vector2.Zero);
         if (InputManager.Direction != Vector2.Zero)
         {
             var dir = Vector2.Normalize(InputManager.Direction);
             position += dir * speed * Globals.ElapsedSeconds;
             position = isWithinBounds(position, _screenHeight, _screenWidth, _borderThreshhold);
-        }else{
-            _anims.Update(InputManager.Direction);
         }
     }
 }

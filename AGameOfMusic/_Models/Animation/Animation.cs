@@ -48,7 +48,7 @@ public class Animation
         _frameTimeLeft -= Globals.ElapsedSeconds;
         if(_frameTimeLeft <= 0){
             _frameTimeLeft += _frameTime;
-            _frame = (_frame + 1) % _frames;
+            _frame = (_frame + 1) % _frames-1;
         }
     }
 
