@@ -15,7 +15,7 @@ public class Animation
     private float _frameTimeLeft;
     private bool _active = true;
 
-    public Animation(Texture2D texture, int framesX,int framesY, float frameTime, int row = 2)
+    public Animation(Texture2D texture, int framesX, float frameTime)
     {
         _texture = texture;
         _frameTime = frameTime;
@@ -23,10 +23,10 @@ public class Animation
         _frames = framesX;
         _frame = 0;
         var frameWidth = _texture.Width / framesX;
-        var frameHeight = _texture.Height / framesY;
+        var frameHeight = _texture.Height;
 
         for(int i = 0; i < _frames; i++){
-            _sourceRectangles.Add(new(i = frameWidth,0,frameWidth, frameHeight));
+            _sourceRectangles.Add(new( i * frameWidth,0,frameWidth, frameHeight));
         }
     }
 
@@ -48,7 +48,7 @@ public class Animation
         _frameTimeLeft -= Globals.ElapsedSeconds;
         if(_frameTimeLeft <= 0){
             _frameTimeLeft += _frameTime;
-            _frame = (_frame + 1) % _frames-1;
+            _frame = (_frame + 1) % _frames;
         }
     }
 

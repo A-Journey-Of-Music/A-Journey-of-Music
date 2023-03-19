@@ -7,7 +7,11 @@ public class PlayerCharacterKeyboard : Sprite
 {
     public PlayerCharacterKeyboard(Texture2D tex, Vector2 pos) : base(tex, pos)
     {
-        _anims.AddAnimation(Vector2.Zero, new(tex, 4, 1, 0.1f));
+        _anims.AddAnimation("idle", new(tex, 4,0.1f));
+    }
+
+    public void AddAnimation(string name, Animation anim){
+        _anims.AddAnimation(name, anim);
     }
 
     private Vector2 isWithinBounds(Vector2 position, int _screenHeight, int _screenWidth, int _borderThreshhold)
@@ -26,12 +30,13 @@ public class PlayerCharacterKeyboard : Sprite
 
     public void Update(int _screenHeight, int _screenWidth, int _borderThreshhold)
     {
-        _anims.Update(Vector2.Zero);
+        _anims.Update("idle");
         if (InputManager.Direction != Vector2.Zero)
         {
             var dir = Vector2.Normalize(InputManager.Direction);
             position += dir * speed * Globals.ElapsedSeconds;
             position = isWithinBounds(position, _screenHeight, _screenWidth, _borderThreshhold);
+            _anims.Update("run");
         }
     }
 }

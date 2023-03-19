@@ -34,7 +34,6 @@
     <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-attack3-03.png</File>
     <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-attack3-04.png</File>
     <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-attack3-05.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-bow.aseprite</File>
     <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-cast-00.png</File>
     <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-cast-01.png</File>
     <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-cast-02.png</File>
@@ -118,7 +117,6 @@
     <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-v1.5-Sheet.png</File>
     <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-wall-slide-00.png</File>
     <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-wall-slide-01.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer.aseprite</File>
     <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/Pixelcity01_layer01.png</File>
     <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/Pixelcity01_layer02.png</File>
     <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/Pixelcity01_layer03.png</File>
@@ -127,8 +125,6 @@
     <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/Pixelcity01_layer06.png</File>
   </SourceFiles>
   <DestFiles>
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
