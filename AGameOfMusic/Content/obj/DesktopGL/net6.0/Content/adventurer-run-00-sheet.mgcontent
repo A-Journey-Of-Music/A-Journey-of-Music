@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-run-00-sheet.png</SourceFile>
-  <SourceTime>2023-03-17T18:31:25.7468564+01:00</SourceTime>
+  <SourceTime>2023-03-19T02:54:38.3666373+01:00</SourceTime>
   <DestFile>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/bin/DesktopGL/Content/adventurer-run-00-sheet.xnb</DestFile>
-  <DestTime>2023-03-18T16:20:01.6192587+01:00</DestTime>
+  <DestTime>2023-03-19T02:55:00.8846618+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
