@@ -44,3 +44,4 @@
 /home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/Content/adventurer-crnr-clmb-00-sheet.xnb
 /home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/Content/adventurer-crnr-grb-00-sheet.xnb
 /home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/Content/adventurer-ladder-climb-00-sheet.xnb
+/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/TiledSharp.dll
