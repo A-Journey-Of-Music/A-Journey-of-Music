@@ -1,0 +1,4 @@
+namespace AGameOfMusic;
+class LevelManager{
+    
+}

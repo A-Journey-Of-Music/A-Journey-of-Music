@@ -1,0 +1,5 @@
+namespace AGameOfMusic;
+
+class SceneManager{
+
+}
