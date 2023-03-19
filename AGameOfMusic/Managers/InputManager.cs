@@ -17,7 +17,23 @@ public static class InputManager
         var keyboardState = Keyboard.GetState();
         Movement = 0;
         _direction = Vector2.Zero;
+        //GamePad
+        GamePadCapabilities capabilities = GamePad.GetCapabilities(PlayerIndex.One);
+        if(capabilities.IsConnected){
+            GamePadState gamepadState = GamePad.GetState(PlayerIndex.One);
+            if(capabilities.HasDPadLeftButton && capabilities.HasDPadRightButton){
+                if(gamepadState.IsButtonDown(Buttons.DPadLeft)){
+                    _direction.X--;
+                    Movement = _speed;
+                }
+                if(gamepadState.IsButtonDown(Buttons.DPadRight)){
+                    _direction.X++;
+                    Movement = -_speed;
+                }
+            }
+        }
 
+        //Keyboard
         if (keyboardState.IsKeyDown(Keys.W) || keyboardState.IsKeyDown(Keys.Up)) _direction.Y--;
         if (keyboardState.IsKeyDown(Keys.S) || keyboardState.IsKeyDown(Keys.Down)) _direction.Y++;
         if (keyboardState.IsKeyDown(Keys.A) || keyboardState.IsKeyDown(Keys.Left))
