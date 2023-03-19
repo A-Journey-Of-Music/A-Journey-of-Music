@@ -11,6 +11,7 @@
 #-------------------------------- References --------------------------------#
 
 /reference:../../../../../../../../../.nuget/packages/monogame.aseprite/4.0.3/content/Monogame.Aseprite.Content.Pipeline.dll
+/reference:../../../../../../../../../.nuget/packages/tiledsharp/1.0.1/lib/netstandard2.0/TiledSharp.dll
 
 #---------------------------------- Content ---------------------------------#
 

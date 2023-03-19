@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-air-attack2-00-sheet.png</SourceFile>
-  <SourceTime>2023-03-19T22:01:53.7425253+01:00</SourceTime>
+  <SourceTime>2023-03-19T22:14:25.5384508+01:00</SourceTime>
   <DestFile>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/bin/adventurer-air-attack2-00-sheet.xnb</DestFile>
-  <DestTime>2023-03-19T22:11:37.1599813+01:00</DestTime>
+  <DestTime>2023-03-19T22:28:55.0217573+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
