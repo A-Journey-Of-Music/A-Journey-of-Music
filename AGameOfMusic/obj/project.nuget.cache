@@ -1,12 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "YFht3yWBeI92G4KdCuJuHE54qFEfRRGexqlcnMzX0k+LdXGQUoIxCxYNwewd7b9Zo5G70p28Yjv5tkIXTEYFag==",
+  "dgSpecHash": "+E4NFD/pKCrSrlAQ5nZYWwkNkfoujJWkZN4dcPNfMu5Nfh31yyPHulB2H05q21bMSHZx41SzLBSoVoV1qIO2oA==",
   "success": true,
   "projectFilePath": "/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/AGameOfMusic.csproj",
   "expectedPackageFiles": [
+    "/home/janneumann/.nuget/packages/autofac/5.2.0/autofac.5.2.0.nupkg.sha512",
     "/home/janneumann/.nuget/packages/monogame.aseprite/4.0.3/monogame.aseprite.4.0.3.nupkg.sha512",
     "/home/janneumann/.nuget/packages/monogame.content.builder.task/3.8.1.303/monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "/home/janneumann/.nuget/packages/monogame.extended/3.8.0/monogame.extended.3.8.0.nupkg.sha512",
+    "/home/janneumann/.nuget/packages/monogame.extended.content.pipeline/3.8.0/monogame.extended.content.pipeline.3.8.0.nupkg.sha512",
+    "/home/janneumann/.nuget/packages/monogame.extended.graphics/3.8.0/monogame.extended.graphics.3.8.0.nupkg.sha512",
+    "/home/janneumann/.nuget/packages/monogame.extended.tiled/3.8.0/monogame.extended.tiled.3.8.0.nupkg.sha512",
     "/home/janneumann/.nuget/packages/monogame.framework.desktopgl/3.8.1.303/monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
+    "/home/janneumann/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/home/janneumann/.nuget/packages/tiledsharp/1.0.1/tiledsharp.1.0.1.nupkg.sha512"
   ],
   "logs": []

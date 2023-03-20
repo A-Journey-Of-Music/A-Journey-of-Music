@@ -12,8 +12,14 @@
 
 /reference:../../../../../../../../../.nuget/packages/monogame.aseprite/4.0.3/content/Monogame.Aseprite.Content.Pipeline.dll
 /reference:../../../../../../../../../.nuget/packages/tiledsharp/1.0.1/lib/netstandard2.0/TiledSharp.dll
+/reference:../../../../../../../../../.nuget/packages/monogame.extended.content.pipeline/3.8.0/tools/MonoGame.Extended.Content.Pipeline.dll
 
 #---------------------------------- Content ---------------------------------#
+
+#begin 1.tmx
+/importer:TiledMapImporter
+/processor:TiledMapProcessor
+/build:1.tmx
 
 #begin adventurer-air-attack-3-end-00-sheet.png
 /importer:TextureImporter
@@ -182,6 +188,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:adventurer-run-00-sheet.png
+
+#begin Blockworld_Tileset.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Blockworld_Tileset.png
 
 #begin Blockworld_Tileset.png
 /importer:TextureImporter

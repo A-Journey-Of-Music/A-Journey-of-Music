@@ -33,6 +33,7 @@ public class Game1 : Game
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
         Globals.SpriteBatch = _spriteBatch;
+        Globals.GraphicsDevice = GraphicsDevice;
         // TODO: use this.Content to load your game content here
         _gameManager = new(_graphics.PreferredBackBufferHeight, _graphics.PreferredBackBufferWidth);
     }
