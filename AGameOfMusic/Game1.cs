@@ -20,7 +20,7 @@ public class Game1 : Game
     protected override void Initialize()
     {
         //Custom Window resizing
-        _graphics.PreferredBackBufferWidth = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;;
+        _graphics.PreferredBackBufferWidth = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
         _graphics.PreferredBackBufferHeight = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
         _graphics.IsFullScreen = true;
         _graphics.ApplyChanges();
