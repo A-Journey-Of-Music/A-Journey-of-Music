@@ -11,18 +11,6 @@
           "lib/netstandard2.1/Autofac.dll": {}
         }
       },
-      "MonoGame.Aseprite/4.0.3": {
-        "type": "package",
-        "dependencies": {
-          "MonoGame.Framework.DesktopGL": "3.8.1.303"
-        },
-        "compile": {
-          "lib/net6.0/MonoGame.Aseprite.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/MonoGame.Aseprite.dll": {}
-        }
-      },
       "MonoGame.Content.Builder.Task/3.8.1.303": {
         "type": "package",
         "build": {
@@ -200,13 +188,13 @@
           "lib/netstandard2.0/MonoGame.Extended.Tiled.dll": {}
         }
       },
-      "MonoGame.Framework.DesktopGL/3.8.0.1641": {
+      "MonoGame.Framework.DesktopGL/3.8.1.303": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/MonoGame.Framework.dll": {}
+          "lib/net6.0/MonoGame.Framework.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/MonoGame.Framework.dll": {}
+          "lib/net6.0/MonoGame.Framework.dll": {}
         },
         "build": {
           "build/MonoGame.Framework.DesktopGL.targets": {}
@@ -220,7 +208,7 @@
             "assetType": "native",
             "rid": "linux-x64"
           },
-          "runtimes/osx/native/libSDL2-2.0.0.dylib": {
+          "runtimes/osx/native/libSDL2.dylib": {
             "assetType": "native",
             "rid": "osx"
           },
@@ -254,15 +242,6 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
-      },
-      "TiledSharp/1.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/TiledSharp.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/TiledSharp.dll": {}
-        }
       }
     }
   },
@@ -286,22 +265,6 @@
         "lib/netstandard2.1/Autofac.dll",
         "lib/netstandard2.1/Autofac.pdb",
         "lib/netstandard2.1/Autofac.xml"
-      ]
-    },
-    "MonoGame.Aseprite/4.0.3": {
-      "sha512": "B5+D9jAIQMHRjiu5si6k3dK949pcJ3MPcMGXOgk7Ze/e2OHK/O15iwp6C2dxWmythvK+XjIxI0TyTtyEAyz5yQ==",
-      "type": "package",
-      "path": "monogame.aseprite/4.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "content/Monogame.Aseprite.Content.Pipeline.dll",
-        "icon.png",
-        "lib/net6.0/MonoGame.Aseprite.dll",
-        "lib/net6.0/MonoGame.Aseprite.xml",
-        "monogame.aseprite.4.0.3.nupkg.sha512",
-        "monogame.aseprite.nuspec"
       ]
     },
     "MonoGame.Content.Builder.Task/3.8.1.303": {
@@ -419,24 +382,21 @@
         "monogame.extended.tiled.nuspec"
       ]
     },
-    "MonoGame.Framework.DesktopGL/3.8.0.1641": {
-      "sha512": "rJQlrlHQbnOECYV6EcQ8GlGRQ2lzPTroXQcyyOZ0ki+BQRSJEN2zVBm9skqLiXya348aGAfTSSGTaSKjAy9NaA==",
+    "MonoGame.Framework.DesktopGL/3.8.1.303": {
+      "sha512": "eGYhqn0n1olk8MNYeE9EuBmoNNECN1T18rPMaQpkzsEQ0H3nVyFPXC+uCo78v5pi5juQpJ3PSFnSkjzZJ1U58A==",
       "type": "package",
-      "path": "monogame.framework.desktopgl/3.8.0.1641",
+      "path": "monogame.framework.desktopgl/3.8.1.303",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "build/MonoGame.Framework.DesktopGL.targets",
-        "lib/net452/MonoGame.Framework.dll",
-        "lib/net452/MonoGame.Framework.xml",
-        "lib/netstandard2.0/MonoGame.Framework.dll",
-        "lib/netstandard2.0/MonoGame.Framework.xml",
-        "monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
+        "lib/net6.0/MonoGame.Framework.dll",
+        "monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
         "monogame.framework.desktopgl.nuspec",
         "runtimes/linux-x64/native/libSDL2-2.0.so.0",
         "runtimes/linux-x64/native/libopenal.so.1",
-        "runtimes/osx/native/libSDL2-2.0.0.dylib",
+        "runtimes/osx/native/libSDL2.dylib",
         "runtimes/osx/native/libopenal.1.dylib",
         "runtimes/win-x64/native/SDL2.dll",
         "runtimes/win-x64/native/soft_oal.dll",
@@ -474,29 +434,15 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
-    },
-    "TiledSharp/1.0.1": {
-      "sha512": "nY88Ux4Yj4aQ1QEP54KZwQ/QMrXSplGpqOxhab6SgkRminHv0PCrwZ9XBfFj0XSgy9omVFIeFrkig9ldXPKp3g==",
-      "type": "package",
-      "path": "tiledsharp/1.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/TiledSharp.dll",
-        "tiledsharp.1.0.1.nupkg.sha512",
-        "tiledsharp.nuspec"
-      ]
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "MonoGame.Aseprite >= 4.0.3",
       "MonoGame.Content.Builder.Task >= 3.8.1.303",
       "MonoGame.Extended >= 3.8.0",
       "MonoGame.Extended.Content.Pipeline >= 3.8.0",
       "MonoGame.Extended.Tiled >= 3.8.0",
-      "MonoGame.Framework.DesktopGL >= 3.8.0.164",
-      "TiledSharp >= 1.0.1"
+      "MonoGame.Framework.DesktopGL >= 3.8.1.303"
     ]
   },
   "packageFolders": {
@@ -536,10 +482,6 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "MonoGame.Aseprite": {
-            "target": "Package",
-            "version": "[4.0.3, )"
-          },
           "MonoGame.Content.Builder.Task": {
             "target": "Package",
             "version": "[3.8.1.303, )"
@@ -558,11 +500,7 @@
           },
           "MonoGame.Framework.DesktopGL": {
             "target": "Package",
-            "version": "[3.8.0.164, )"
-          },
-          "TiledSharp": {
-            "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[3.8.1.303, )"
           }
         },
         "imports": [
@@ -583,26 +521,5 @@
         "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/6.0.114/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "AGameOfMusic depends on MonoGame.Framework.DesktopGL (>= 3.8.0.164) but MonoGame.Framework.DesktopGL 3.8.0.164 was not found. An approximate best match of MonoGame.Framework.DesktopGL 3.8.0.1641 was resolved.",
-      "libraryId": "MonoGame.Framework.DesktopGL",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: MonoGame.Framework.DesktopGL from 3.8.1.303 to 3.8.0.1641. Reference the package directly from the project to select a different version. \n AGameOfMusic -> MonoGame.Aseprite 4.0.3 -> MonoGame.Framework.DesktopGL (>= 3.8.1.303) \n AGameOfMusic -> MonoGame.Framework.DesktopGL (>= 3.8.0.164)",
-      "libraryId": "MonoGame.Framework.DesktopGL",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

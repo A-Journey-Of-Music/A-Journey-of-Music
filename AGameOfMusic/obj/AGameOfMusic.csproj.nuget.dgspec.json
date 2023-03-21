@@ -38,10 +38,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "MonoGame.Aseprite": {
-              "target": "Package",
-              "version": "[4.0.3, )"
-            },
             "MonoGame.Content.Builder.Task": {
               "target": "Package",
               "version": "[3.8.1.303, )"
@@ -60,11 +56,7 @@
             },
             "MonoGame.Framework.DesktopGL": {
               "target": "Package",
-              "version": "[3.8.0.164, )"
-            },
-            "TiledSharp": {
-              "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[3.8.1.303, )"
             }
           },
           "imports": [

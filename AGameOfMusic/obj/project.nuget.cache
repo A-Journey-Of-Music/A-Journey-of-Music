@@ -1,39 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "X5AusIsxxBCYK9J9UBS2YGY09eejps3Xs0jSmHQJFP54y0VzDxPnz+begSXpbLo6PA2870Uii9FV9zuGyj+6RQ==",
-  "success": false,
+  "dgSpecHash": "//JLQc+VJDFpg7KqAYg4C25/9ejKKuxxQDUeq47tRjwcybFHxUqlZwRM8fhQUhGTcWkesc32qt5GqIBLHqdASA==",
+  "success": true,
   "projectFilePath": "/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/AGameOfMusic.csproj",
   "expectedPackageFiles": [
     "/home/janneumann/.nuget/packages/autofac/5.2.0/autofac.5.2.0.nupkg.sha512",
-    "/home/janneumann/.nuget/packages/monogame.aseprite/4.0.3/monogame.aseprite.4.0.3.nupkg.sha512",
     "/home/janneumann/.nuget/packages/monogame.content.builder.task/3.8.1.303/monogame.content.builder.task.3.8.1.303.nupkg.sha512",
     "/home/janneumann/.nuget/packages/monogame.extended/3.8.0/monogame.extended.3.8.0.nupkg.sha512",
     "/home/janneumann/.nuget/packages/monogame.extended.content.pipeline/3.8.0/monogame.extended.content.pipeline.3.8.0.nupkg.sha512",
     "/home/janneumann/.nuget/packages/monogame.extended.graphics/3.8.0/monogame.extended.graphics.3.8.0.nupkg.sha512",
     "/home/janneumann/.nuget/packages/monogame.extended.tiled/3.8.0/monogame.extended.tiled.3.8.0.nupkg.sha512",
-    "/home/janneumann/.nuget/packages/monogame.framework.desktopgl/3.8.0.1641/monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
-    "/home/janneumann/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
-    "/home/janneumann/.nuget/packages/tiledsharp/1.0.1/tiledsharp.1.0.1.nupkg.sha512"
+    "/home/janneumann/.nuget/packages/monogame.framework.desktopgl/3.8.1.303/monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
+    "/home/janneumann/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "AGameOfMusic depends on MonoGame.Framework.DesktopGL (>= 3.8.0.164) but MonoGame.Framework.DesktopGL 3.8.0.164 was not found. An approximate best match of MonoGame.Framework.DesktopGL 3.8.0.1641 was resolved.",
-      "libraryId": "MonoGame.Framework.DesktopGL",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: MonoGame.Framework.DesktopGL from 3.8.1.303 to 3.8.0.1641. Reference the package directly from the project to select a different version. \n AGameOfMusic -> MonoGame.Aseprite 4.0.3 -> MonoGame.Framework.DesktopGL (>= 3.8.1.303) \n AGameOfMusic -> MonoGame.Framework.DesktopGL (>= 3.8.0.164)",
-      "libraryId": "MonoGame.Framework.DesktopGL",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

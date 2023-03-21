@@ -16,11 +16,6 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin 1.tmx
-/importer:TiledMapImporter
-/processor:TiledMapProcessor
-/build:1.tmx
-
 #begin adventurer-air-attack-3-end-00-sheet.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -188,18 +183,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:adventurer-run-00-sheet.png
-
-#begin Blockworld_Tileset.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Blockworld_Tileset.png
 
 #begin Blockworld_Tileset.png
 /importer:TextureImporter
