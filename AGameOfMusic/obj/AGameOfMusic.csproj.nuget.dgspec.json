@@ -60,7 +60,7 @@
             },
             "MonoGame.Framework.DesktopGL": {
               "target": "Package",
-              "version": "[3.8.1.303, )"
+              "version": "[3.8.0.164, )"
             },
             "TiledSharp": {
               "target": "Package",
