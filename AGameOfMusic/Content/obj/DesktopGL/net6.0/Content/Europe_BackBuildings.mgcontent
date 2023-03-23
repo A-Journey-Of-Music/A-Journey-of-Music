@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/Europe_BackBuildings.png</SourceFile>
-  <SourceTime>2023-03-24T00:13:21.0243871+01:00</SourceTime>
+  <SourceTime>2023-03-24T00:17:55.818105+01:00</SourceTime>
   <DestFile>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/bin/DesktopGL/Content/Europe_BackBuildings.xnb</DestFile>
-  <DestTime>2023-03-24T00:13:51.4284665+01:00</DestTime>
+  <DestTime>2023-03-24T00:18:07.5181356+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
