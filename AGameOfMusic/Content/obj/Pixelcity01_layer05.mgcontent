@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/Pixelcity01_layer05.png</SourceFile>
-  <SourceTime>2023-03-21T10:44:32.9436929+01:00</SourceTime>
+  <SourceTime>2023-03-21T10:55:00+01:00</SourceTime>
   <DestFile>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/bin/Pixelcity01_layer05.xnb</DestFile>
-  <DestTime>2023-03-21T10:46:05.5389497+01:00</DestTime>
+  <DestTime>2023-03-23T16:29:25.3800591+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

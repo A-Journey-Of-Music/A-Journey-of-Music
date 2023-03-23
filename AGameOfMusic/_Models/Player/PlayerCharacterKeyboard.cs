@@ -7,7 +7,7 @@ public class PlayerCharacterKeyboard : Sprite
 {
     public PlayerCharacterKeyboard(Texture2D tex, Vector2 pos) : base(tex, pos)
     {
-        _anims.AddAnimation("idle", new(tex, 4,0.1f));
+        _anims.AddAnimation("idle", new(tex, 5,0.1f));
     }
 
     public void AddAnimation(string name, Animation anim){

@@ -49,3 +49,5 @@
 /home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/MonoGame.Extended.Tiled.dll
 /home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/Newtonsoft.Json.dll
 /home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/runtimes/osx/native/libSDL2.dylib
+/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/Content/mozart_idle.xnb
+/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/Content/mozart_run.xnb

@@ -16,8 +16,8 @@ public class GameManager
         _borderThreshhold = 20;
         _screenHeight = height;
         _screenWidth = width;
-        _playerCharacterKeyboard = new(Globals.Content.Load<Texture2D>("adventurer-idle-2-00-sheet"), new(_screenWidth/2,_screenHeight/2));
-        _playerCharacterKeyboard.AddAnimation("run", new(Globals.Content.Load<Texture2D>("adventurer-run-00-sheet"),6,0.1f));
+        _playerCharacterKeyboard = new(Globals.Content.Load<Texture2D>("mozart_idle"), new(_screenWidth/2,_screenHeight/2));
+        _playerCharacterKeyboard.AddAnimation("run", new(Globals.Content.Load<Texture2D>("mozart_run"),6,0.1f));
         _bgm.AddLayer(new(Globals.Content.Load<Texture2D>("Pixelcity01_layer01"), 0.0f, 0.0f, _screenHeight, _screenWidth));
         _bgm.AddLayer(new(Globals.Content.Load<Texture2D>("Pixelcity01_layer02"), 0.1f, 0.2f, _screenHeight, _screenWidth));
         _bgm.AddLayer(new(Globals.Content.Load<Texture2D>("Pixelcity01_layer03"), 0.2f, 0.5f, _screenHeight, _screenWidth));
