@@ -21,8 +21,9 @@ public class GameManager
         _bgm.AddLayer(new(Globals.Content.Load<Texture2D>("Europe_Sky"), 0.0f, 0.0f, _screenHeight, _screenWidth));
         _bgm.AddLayer(new(Globals.Content.Load<Texture2D>("Europe_Clouds"), 0.1f, 0.2f, _screenHeight, _screenWidth));
         _bgm.AddLayer(new(Globals.Content.Load<Texture2D>("Europe_Mountains"), 0.2f, 0.5f, _screenHeight, _screenWidth));
-        _bgm.AddLayer(new(Globals.Content.Load<Texture2D>("Europe_BackBuildings"), 0.3f, 1.0f, _screenHeight, _screenWidth));
-        _bgm.AddLayer(new(Globals.Content.Load<Texture2D>("Europe_Floor"), 0.4f, 1.2f, _screenHeight, _screenWidth));
+        _bgm.AddLayer(new(Globals.Content.Load<Texture2D>("Europe_BackBackBuildings"), 0.3f, 1.0f, _screenHeight, _screenWidth));
+        _bgm.AddLayer(new(Globals.Content.Load<Texture2D>("Europe_BackBuildings"), 0.4f, 1.3f, _screenHeight, _screenWidth));
+        _bgm.AddLayer(new(Globals.Content.Load<Texture2D>("Europe_Floor"), 0.5f, 1.2f, _screenHeight, _screenWidth));
     }
 
     public void Update()

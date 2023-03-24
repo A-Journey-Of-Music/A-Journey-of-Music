@@ -56,3 +56,4 @@
 /home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/Content/Europe_Floor.xnb
 /home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/Content/Europe_Mountains.xnb
 /home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/Content/Europe_Sky.xnb
+/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/Content/Europe_BackBackBuildings.xnb
