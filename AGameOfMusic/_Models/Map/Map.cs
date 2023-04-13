@@ -1,20 +1,24 @@
-using TiledCS;
 using Microsoft.Xna.Framework;
+using MonoGame.Extended.Tiled;
+using MonoGame.Extended.Tiled.Renderers;
 
 namespace AGameOfMusic;
 public class Map{
 
     private TiledMap _tiledMap;
-    private TiledTileSet _tileSet;
+    private TiledMapRenderer _tiledMapRenderer;
+    
 
-    public Map(TiledMap tm, TiledTileset ts){
+    public Map(TiledMap tm){
         _tiledMap = tm;
-        _tiledSet = ts;
+        _tiledMapRenderer = new TiledMapRenderer(Globals.GraphicsDevice, _tiledMap);
     }
 
     public void Update(GameTime gameTime){
+        _tiledMapRenderer.Update(gameTime);
     }
 
     public void Draw(GameTime gameTime) {
+        _tiledMapRenderer.Update(gameTime);
     }   
 }

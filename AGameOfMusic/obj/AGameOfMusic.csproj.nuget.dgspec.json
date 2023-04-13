@@ -20,7 +20,7 @@
           "net6.0"
         ],
         "sources": {
-          "https://www.myget.org/F/lithiumtoast/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -44,11 +44,11 @@
             },
             "MonoGame.Extended": {
               "target": "Package",
-              "version": "[3.8.0, )"
+              "version": "[3.9.0-alpha0093, )"
             },
             "MonoGame.Extended.Content.Pipeline": {
               "target": "Package",
-              "version": "[3.8.0, )"
+              "version": "[3.9.0-alpha0093, )"
             },
             "MonoGame.Extended.Tiled": {
               "target": "Package",
