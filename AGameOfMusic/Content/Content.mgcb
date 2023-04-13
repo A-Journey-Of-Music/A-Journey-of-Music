@@ -12,9 +12,14 @@
 
 /reference:../../../../../../../../../.nuget/packages/monogame.aseprite/4.0.3/content/Monogame.Aseprite.Content.Pipeline.dll
 /reference:../../../../../../../../../.nuget/packages/tiledsharp/1.0.1/lib/netstandard2.0/TiledSharp.dll
-/reference:../../../../../../../../../.nuget/packages/monogame.extended.content.pipeline/3.8.0/tools/MonoGame.Extended.Content.Pipeline.dll
+/reference:../../../../../../../../../.nuget/packages/monogame.extended.content.pipeline/3.9.0-alpha0093/tools/MonoGame.Extended.Content.Pipeline.dll
 
 #---------------------------------- Content ---------------------------------#
+
+#begin 1.tmx
+/importer:TiledMapImporter
+/processor:TiledMapProcessor
+/build:1.tmx
 
 #begin adventurer-air-attack-3-end-00-sheet.png
 /importer:TextureImporter

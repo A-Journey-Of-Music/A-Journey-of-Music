@@ -1,17 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "//JLQc+VJDFpg7KqAYg4C25/9ejKKuxxQDUeq47tRjwcybFHxUqlZwRM8fhQUhGTcWkesc32qt5GqIBLHqdASA==",
-  "success": true,
+  "dgSpecHash": "4JmIzcKFbZVlI7vm6veHsetc0d5bjKunSog14tvGhu3RewMB9Cgy0xUlpzc9sbKApPCOVkftUbOj8HEsUsa/Jg==",
+  "success": false,
   "projectFilePath": "/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/AGameOfMusic.csproj",
   "expectedPackageFiles": [
     "/home/janneumann/.nuget/packages/autofac/5.2.0/autofac.5.2.0.nupkg.sha512",
     "/home/janneumann/.nuget/packages/monogame.content.builder.task/3.8.1.303/monogame.content.builder.task.3.8.1.303.nupkg.sha512",
     "/home/janneumann/.nuget/packages/monogame.extended/3.8.0/monogame.extended.3.8.0.nupkg.sha512",
     "/home/janneumann/.nuget/packages/monogame.extended.content.pipeline/3.8.0/monogame.extended.content.pipeline.3.8.0.nupkg.sha512",
-    "/home/janneumann/.nuget/packages/monogame.extended.graphics/3.8.0/monogame.extended.graphics.3.8.0.nupkg.sha512",
-    "/home/janneumann/.nuget/packages/monogame.extended.tiled/3.8.0/monogame.extended.tiled.3.8.0.nupkg.sha512",
+    "/home/janneumann/.nuget/packages/monogame.extended.graphics/3.9.0-alpha0093/monogame.extended.graphics.3.9.0-alpha0093.nupkg.sha512",
+    "/home/janneumann/.nuget/packages/monogame.extended.tiled/3.9.0-alpha0093/monogame.extended.tiled.3.9.0-alpha0093.nupkg.sha512",
     "/home/janneumann/.nuget/packages/monogame.framework.desktopgl/3.8.1.303/monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
     "/home/janneumann/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Detected package downgrade: MonoGame.Extended from 3.9.0-alpha0093 to 3.8.0. Reference the package directly from the project to select a different version. \n AGameOfMusic -> MonoGame.Extended.Tiled 3.9.0-alpha0093 -> MonoGame.Extended (>= 3.9.0-alpha0093) \n AGameOfMusic -> MonoGame.Extended (>= 3.8.0)",
+      "libraryId": "MonoGame.Extended",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

@@ -163,29 +163,29 @@
           }
         }
       },
-      "MonoGame.Extended.Graphics/3.8.0": {
+      "MonoGame.Extended.Graphics/3.9.0-alpha0093": {
         "type": "package",
         "dependencies": {
-          "MonoGame.Extended": "3.8.0"
+          "MonoGame.Extended": "3.9.0-alpha0093"
         },
         "compile": {
-          "lib/netstandard2.0/MonoGame.Extended.Graphics.dll": {}
+          "lib/net6.0/MonoGame.Extended.Graphics.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/MonoGame.Extended.Graphics.dll": {}
+          "lib/net6.0/MonoGame.Extended.Graphics.dll": {}
         }
       },
-      "MonoGame.Extended.Tiled/3.8.0": {
+      "MonoGame.Extended.Tiled/3.9.0-alpha0093": {
         "type": "package",
         "dependencies": {
-          "MonoGame.Extended": "3.8.0",
-          "MonoGame.Extended.Graphics": "3.8.0"
+          "MonoGame.Extended": "3.9.0-alpha0093",
+          "MonoGame.Extended.Graphics": "3.9.0-alpha0093"
         },
         "compile": {
-          "lib/netstandard2.0/MonoGame.Extended.Tiled.dll": {}
+          "lib/net6.0/MonoGame.Extended.Tiled.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/MonoGame.Extended.Tiled.dll": {}
+          "lib/net6.0/MonoGame.Extended.Tiled.dll": {}
         }
       },
       "MonoGame.Framework.DesktopGL/3.8.1.303": {
@@ -358,27 +358,26 @@
         "tools/Newtonsoft.Json.dll"
       ]
     },
-    "MonoGame.Extended.Graphics/3.8.0": {
-      "sha512": "vSl1+4dFNKnOqHUB1SRQ7IdWXNagJJI+KKCQmaSyfon99/kumsChQ9iZXltEaUO3ArB8QGnblii/PXq/bsLUHQ==",
+    "MonoGame.Extended.Graphics/3.9.0-alpha0093": {
+      "sha512": "j4UHRlTbUalcGqDTUHX7Ln1jL03BLX06lmv/e/Ky5ALlu8uNFPpOi9zCn7pDmo/y4HGb065wzRbQIq+++uCnFg==",
       "type": "package",
-      "path": "monogame.extended.graphics/3.8.0",
+      "path": "monogame.extended.graphics/3.9.0-alpha0093",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/MonoGame.Extended.Graphics.dll",
-        "monogame.extended.graphics.3.8.0.nupkg.sha512",
+        "lib/net6.0/MonoGame.Extended.Graphics.dll",
+        "lib/net6.0/MonoGame.Extended.Graphics.xml",
+        "monogame.extended.graphics.3.9.0-alpha0093.nupkg.sha512",
         "monogame.extended.graphics.nuspec"
       ]
     },
-    "MonoGame.Extended.Tiled/3.8.0": {
-      "sha512": "lXE+Ysvep5FCozHlj862kqIG6TWCmjNgjF7xWbJ4ZDkqG+Khi9VrG5G8Pdj80TMRpDhZOz3PICinVZElZU639g==",
+    "MonoGame.Extended.Tiled/3.9.0-alpha0093": {
+      "sha512": "NUXg9fa/HmQxr6OPFt9t8G0wwmo23xDvVcVoYWURwmeLnZYxoriGo4YGOWRop4WxsKQAZbdd3VaBRFMpigus3g==",
       "type": "package",
-      "path": "monogame.extended.tiled/3.8.0",
+      "path": "monogame.extended.tiled/3.9.0-alpha0093",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/MonoGame.Extended.Tiled.dll",
-        "monogame.extended.tiled.3.8.0.nupkg.sha512",
+        "lib/net6.0/MonoGame.Extended.Tiled.dll",
+        "monogame.extended.tiled.3.9.0-alpha0093.nupkg.sha512",
         "monogame.extended.tiled.nuspec"
       ]
     },
@@ -441,7 +440,7 @@
       "MonoGame.Content.Builder.Task >= 3.8.1.303",
       "MonoGame.Extended >= 3.8.0",
       "MonoGame.Extended.Content.Pipeline >= 3.8.0",
-      "MonoGame.Extended.Tiled >= 3.8.0",
+      "MonoGame.Extended.Tiled >= 3.9.0-alpha0093",
       "MonoGame.Framework.DesktopGL >= 3.8.1.303"
     ]
   },
@@ -464,7 +463,7 @@
         "net6.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "https://www.myget.org/F/lithiumtoast/api/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -496,7 +495,7 @@
           },
           "MonoGame.Extended.Tiled": {
             "target": "Package",
-            "version": "[3.8.0, )"
+            "version": "[3.9.0-alpha0093, )"
           },
           "MonoGame.Framework.DesktopGL": {
             "target": "Package",
@@ -518,8 +517,19 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/6.0.114/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/6.0.115/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Detected package downgrade: MonoGame.Extended from 3.9.0-alpha0093 to 3.8.0. Reference the package directly from the project to select a different version. \n AGameOfMusic -> MonoGame.Extended.Tiled 3.9.0-alpha0093 -> MonoGame.Extended (>= 3.9.0-alpha0093) \n AGameOfMusic -> MonoGame.Extended (>= 3.8.0)",
+      "libraryId": "MonoGame.Extended",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
