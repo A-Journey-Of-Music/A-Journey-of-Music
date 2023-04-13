@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MLEM.Extended": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
             "MonoGame.Content.Builder.Task": {
               "target": "Package",
               "version": "[3.8.1.303, )"

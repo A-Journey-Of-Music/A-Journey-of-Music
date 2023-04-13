@@ -19,6 +19,7 @@ public class GameManager
         _screenHeight = height;
         _screenWidth = width;
         _map = new(Globals.Content.Load<TiledMap>("1"));
+        
         _playerCharacterKeyboard = new(Globals.Content.Load<Texture2D>("mozart_idle"), new(_screenWidth/2,_screenHeight/2));
         _playerCharacterKeyboard.AddAnimation("run", new(Globals.Content.Load<Texture2D>("mozart_run"),6,0.1f));
         _bgm.AddLayer(new(Globals.Content.Load<Texture2D>("Europe_Sky"), 0.0f, 0.0f, _screenHeight, _screenWidth));

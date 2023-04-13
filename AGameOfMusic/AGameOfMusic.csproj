@@ -19,6 +19,7 @@
     <EmbeddedResource Include="Icon.bmp" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="MLEM.Extended" Version="6.1.0" />
     <PackageReference Include="MonoGame.Extended" Version="3.9.0-alpha0093" />
     <PackageReference Include="MonoGame.Extended.Content.Pipeline" Version="3.9.0-alpha0093" />
     <PackageReference Include="MonoGame.Extended.Tiled" Version="3.9.0-alpha0093" />

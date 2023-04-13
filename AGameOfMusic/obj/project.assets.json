@@ -11,6 +11,27 @@
           "lib/netstandard2.1/Autofac.dll": {}
         }
       },
+      "MLEM/6.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MLEM.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/MLEM.dll": {}
+        }
+      },
+      "MLEM.Extended/6.1.0": {
+        "type": "package",
+        "dependencies": {
+          "MLEM": "6.1.0"
+        },
+        "compile": {
+          "lib/net6.0/MLEM.Extended.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/MLEM.Extended.dll": {}
+        }
+      },
       "MonoGame.Content.Builder.Task/3.8.1.303": {
         "type": "package",
         "build": {
@@ -143,6 +164,42 @@
         "lib/netstandard2.1/Autofac.xml"
       ]
     },
+    "MLEM/6.1.0": {
+      "sha512": "HMhGwdPI956b24tfLIAtTMAu2TS6rd5Ylrdgb+JbCWjoxjgzk3eWqD3voPg9aRRy6QEhvRu9TjpnIRgJp9W71g==",
+      "type": "package",
+      "path": "mlem/6.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Logo.png",
+        "README.md",
+        "lib/net452/MLEM.dll",
+        "lib/net452/MLEM.xml",
+        "lib/net6.0/MLEM.dll",
+        "lib/net6.0/MLEM.xml",
+        "lib/netstandard2.0/MLEM.dll",
+        "lib/netstandard2.0/MLEM.xml",
+        "mlem.6.1.0.nupkg.sha512",
+        "mlem.nuspec"
+      ]
+    },
+    "MLEM.Extended/6.1.0": {
+      "sha512": "EGm+ZAA/BjSdxC8HKS49z2rpXxTVdQaukpO5g4Qqxy2bvKwR7IEA0WRVActpgSF3t8AnPUVdTchG02Q2zxGtTQ==",
+      "type": "package",
+      "path": "mlem.extended/6.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Logo.png",
+        "README.md",
+        "lib/net6.0/MLEM.Extended.dll",
+        "lib/net6.0/MLEM.Extended.xml",
+        "lib/netstandard2.0/MLEM.Extended.dll",
+        "lib/netstandard2.0/MLEM.Extended.xml",
+        "mlem.extended.6.1.0.nupkg.sha512",
+        "mlem.extended.nuspec"
+      ]
+    },
     "MonoGame.Content.Builder.Task/3.8.1.303": {
       "sha512": "9Ilzzje62LhWElbPNEl7vh7XsRSbze+lvCJdZtTZUGu48FRgvYN6THURwIB9PN98EI33/Wnf6iuShNUtD7hL4Q==",
       "type": "package",
@@ -260,6 +317,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "MLEM.Extended >= 6.1.0",
       "MonoGame.Content.Builder.Task >= 3.8.1.303",
       "MonoGame.Extended >= 3.9.0-alpha0093",
       "MonoGame.Extended.Content.Pipeline >= 3.9.0-alpha0093",
@@ -304,6 +362,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "MLEM.Extended": {
+            "target": "Package",
+            "version": "[6.1.0, )"
+          },
           "MonoGame.Content.Builder.Task": {
             "target": "Package",
             "version": "[3.8.1.303, )"
