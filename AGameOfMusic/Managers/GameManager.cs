@@ -49,6 +49,6 @@ public class GameManager
         //Fix Background and Position
         //_bgm.Draw();
         _playerCharacterKeyboard.Draw();
-        _tmm.Draw();
+        _tmm.Draw(_screenHeight);
     }
 }

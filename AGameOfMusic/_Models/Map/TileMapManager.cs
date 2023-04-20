@@ -33,22 +33,22 @@ public class TileMapManager
         float mapPosition = -playerPosition + (screenWidth / 2);
 
         // Ensure that the map stays within the bounds of the screen
-        
+
         if (mapPosition > 0)
         {
             mapPosition = 0;
         }
-        else if (mapPosition < -(map.Width*48) + screenWidth)
+        else if (mapPosition < -(map.Width * 48) + screenWidth)
         {
-            mapPosition = -(map.Width*48) + screenWidth;
+            mapPosition = -(map.Width * 48) + screenWidth;
         }
-        
+
 
         // Create a translation matrix based on the map position
         matrix = Matrix.CreateTranslation(mapPosition, 0, 0);
     }
 
-    public void Draw()
+    public void Draw(float screenHeight)
     {
         spriteBatch.Begin(
             SpriteSortMode.Deferred,
@@ -77,6 +77,7 @@ public class TileMapManager
                         int row = (int)Math.Floor((double)tileFrame / (double)tilesetTilesWide);
                         float x = (j % map.Width) * map.TileWidth;
                         float y = (float)Math.Floor(j / (double)map.Width) * map.TileHeight;
+                        y += screenHeight - (map.Height * map.TileHeight);
                         Rectangle tilesetRec = new Rectangle((tileWidth) * column, (tileHeight) * row, tileWidth, tileHeight);
                         spriteBatch.Draw(tileset, new Rectangle((int)x, (int)y, tileWidth, tileHeight), tilesetRec, Color.White);
                     }
