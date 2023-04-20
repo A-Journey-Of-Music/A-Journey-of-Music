@@ -16,11 +16,6 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin 1.tmx
-/importer:TiledMapImporter
-/processor:TiledMapProcessor
-/build:1.tmx
-
 #begin adventurer-air-attack-3-end-00-sheet.png
 /importer:TextureImporter
 /processor:TextureProcessor
