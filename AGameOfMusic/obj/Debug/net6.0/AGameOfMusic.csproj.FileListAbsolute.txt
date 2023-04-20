@@ -59,3 +59,6 @@
 /home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/Content/Europe_BackBackBuildings.xnb
 /home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/Content/1.xnb
 /home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/Content/Blockworld_Tileset_0.xnb
+/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/MLEM.dll
+/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/MLEM.Extended.dll
+/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/bin/Debug/net6.0/TiledSharp.dll

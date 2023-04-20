@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "s1+onGOOekzbHIBsVSLgSgMJqAdmwDrA44WDkNcCxS88RR61U8KbVfCRBomTm0qNszw6siQ4l6b60MRwJ17FOw==",
+  "dgSpecHash": "lMezsRGy4VRnQdjfsFmFEYKcVKSwzu0TasVX2JxbJf5PgL07dqT0DPApIjh3uYYet5Afk1s94td1U+GpqhBHnA==",
   "success": true,
   "projectFilePath": "/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/AGameOfMusic.csproj",
   "expectedPackageFiles": [
@@ -13,7 +13,8 @@
     "/home/janneumann/.nuget/packages/monogame.extended.graphics/3.9.0-alpha0093/monogame.extended.graphics.3.9.0-alpha0093.nupkg.sha512",
     "/home/janneumann/.nuget/packages/monogame.extended.tiled/3.9.0-alpha0093/monogame.extended.tiled.3.9.0-alpha0093.nupkg.sha512",
     "/home/janneumann/.nuget/packages/monogame.framework.desktopgl/3.8.1.303/monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
-    "/home/janneumann/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+    "/home/janneumann/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/home/janneumann/.nuget/packages/tiledsharp/1.0.1/tiledsharp.1.0.1.nupkg.sha512"
   ],
   "logs": []
 }

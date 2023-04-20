@@ -139,6 +139,15 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
+      },
+      "TiledSharp/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TiledSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TiledSharp.dll": {}
+        }
       }
     }
   },
@@ -313,6 +322,18 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "TiledSharp/1.0.1": {
+      "sha512": "nY88Ux4Yj4aQ1QEP54KZwQ/QMrXSplGpqOxhab6SgkRminHv0PCrwZ9XBfFj0XSgy9omVFIeFrkig9ldXPKp3g==",
+      "type": "package",
+      "path": "tiledsharp/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/TiledSharp.dll",
+        "tiledsharp.1.0.1.nupkg.sha512",
+        "tiledsharp.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -322,7 +343,8 @@
       "MonoGame.Extended >= 3.9.0-alpha0093",
       "MonoGame.Extended.Content.Pipeline >= 3.9.0-alpha0093",
       "MonoGame.Extended.Tiled >= 3.9.0-alpha0093",
-      "MonoGame.Framework.DesktopGL >= 3.8.1.303"
+      "MonoGame.Framework.DesktopGL >= 3.8.1.303",
+      "TiledSharp >= 1.0.1"
     ]
   },
   "packageFolders": {
@@ -385,6 +407,10 @@
           "MonoGame.Framework.DesktopGL": {
             "target": "Package",
             "version": "[3.8.1.303, )"
+          },
+          "TiledSharp": {
+            "target": "Package",
+            "version": "[1.0.1, )"
           }
         },
         "imports": [

@@ -8,11 +8,13 @@
     ".NETCoreApp,Version=v6.0": {
       "AGameOfMusic/1.0.0": {
         "dependencies": {
+          "MLEM.Extended": "6.1.0",
           "MonoGame.Content.Builder.Task": "3.8.1.303",
           "MonoGame.Extended": "3.9.0-alpha0093",
           "MonoGame.Extended.Content.Pipeline": "3.9.0-alpha0093",
           "MonoGame.Extended.Tiled": "3.9.0-alpha0093",
-          "MonoGame.Framework.DesktopGL": "3.8.1.303"
+          "MonoGame.Framework.DesktopGL": "3.8.1.303",
+          "TiledSharp": "1.0.1"
         },
         "runtime": {
           "AGameOfMusic.dll": {}
@@ -23,6 +25,25 @@
           "lib/netstandard2.1/Autofac.dll": {
             "assemblyVersion": "5.2.0.0",
             "fileVersion": "5.2.0.0"
+          }
+        }
+      },
+      "MLEM/6.1.0": {
+        "runtime": {
+          "lib/net6.0/MLEM.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
+          }
+        }
+      },
+      "MLEM.Extended/6.1.0": {
+        "dependencies": {
+          "MLEM": "6.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/MLEM.Extended.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
           }
         }
       },
@@ -126,6 +147,14 @@
             "fileVersion": "13.0.1.25517"
           }
         }
+      },
+      "TiledSharp/1.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/TiledSharp.dll": {
+            "assemblyVersion": "0.15.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
       }
     }
   },
@@ -141,6 +170,20 @@
       "sha512": "sha512-V8dBH0dsv75uDzl7Sw+HkhKDPUw2eXnlMjcSVMH+tLo2s67MpTKGyDj1pDcpR+IF2u4YRs0s3/x7R88YJzIWvg==",
       "path": "autofac/5.2.0",
       "hashPath": "autofac.5.2.0.nupkg.sha512"
+    },
+    "MLEM/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HMhGwdPI956b24tfLIAtTMAu2TS6rd5Ylrdgb+JbCWjoxjgzk3eWqD3voPg9aRRy6QEhvRu9TjpnIRgJp9W71g==",
+      "path": "mlem/6.1.0",
+      "hashPath": "mlem.6.1.0.nupkg.sha512"
+    },
+    "MLEM.Extended/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EGm+ZAA/BjSdxC8HKS49z2rpXxTVdQaukpO5g4Qqxy2bvKwR7IEA0WRVActpgSF3t8AnPUVdTchG02Q2zxGtTQ==",
+      "path": "mlem.extended/6.1.0",
+      "hashPath": "mlem.extended.6.1.0.nupkg.sha512"
     },
     "MonoGame.Content.Builder.Task/3.8.1.303": {
       "type": "package",
@@ -190,6 +233,13 @@
       "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
       "path": "newtonsoft.json/13.0.1",
       "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "TiledSharp/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nY88Ux4Yj4aQ1QEP54KZwQ/QMrXSplGpqOxhab6SgkRminHv0PCrwZ9XBfFj0XSgy9omVFIeFrkig9ldXPKp3g==",
+      "path": "tiledsharp/1.0.1",
+      "hashPath": "tiledsharp.1.0.1.nupkg.sha512"
     }
   }
 }
