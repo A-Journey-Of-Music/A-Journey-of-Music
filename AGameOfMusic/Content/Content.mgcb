@@ -16,7 +16,7 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin adventurer-air-attack-3-end-00-sheet.png
+#begin backgrounds/europe/Europe_BackBackBuildings.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -26,9 +26,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:adventurer-air-attack-3-end-00-sheet.png
+/build:backgrounds/europe/Europe_BackBackBuildings.png
 
-#begin adventurer-air-attack1-00-sheet.png
+#begin backgrounds/europe/Europe_BackBuildings.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -38,9 +38,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:adventurer-air-attack1-00-sheet.png
+/build:backgrounds/europe/Europe_BackBuildings.png
 
-#begin adventurer-air-attack2-00-sheet.png
+#begin backgrounds/europe/Europe_Clouds.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -50,9 +50,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:adventurer-air-attack2-00-sheet.png
+/build:backgrounds/europe/Europe_Clouds.png
 
-#begin adventurer-attack1-00-sheet.png
+#begin backgrounds/europe/Europe_Floor.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -62,9 +62,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:adventurer-attack1-00-sheet.png
+/build:backgrounds/europe/Europe_Floor.png
 
-#begin adventurer-attack2-00-sheet.png
+#begin backgrounds/europe/Europe_Mountains.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -74,9 +74,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:adventurer-attack2-00-sheet.png
+/build:backgrounds/europe/Europe_Mountains.png
 
-#begin adventurer-attack3-00-sheet.png
+#begin backgrounds/europe/Europe_Sky.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -86,9 +86,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:adventurer-attack3-00-sheet.png
+/build:backgrounds/europe/Europe_Sky.png
 
-#begin adventurer-cast-00-sheet.png
+#begin backgrounds/kiss/Kiss_BackBackBuildings.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -98,9 +98,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:adventurer-cast-00-sheet.png
+/build:backgrounds/kiss/Kiss_BackBackBuildings.png
 
-#begin adventurer-cast-loop-00-sheet.png
+#begin backgrounds/kiss/Kiss_BackBuildings.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -110,9 +110,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:adventurer-cast-loop-00-sheet.png
+/build:backgrounds/kiss/Kiss_BackBuildings.png
 
-#begin adventurer-crnr-clmb-00-sheet.png
+#begin backgrounds/kiss/Kiss_Buildings.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -122,9 +122,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:adventurer-crnr-clmb-00-sheet.png
+/build:backgrounds/kiss/Kiss_Buildings.png
 
-#begin adventurer-crnr-grb-00-sheet.png
+#begin backgrounds/kiss/Kiss_Clouds.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -134,9 +134,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:adventurer-crnr-grb-00-sheet.png
+/build:backgrounds/kiss/Kiss_Clouds.png
 
-#begin adventurer-idle-2-00-sheet.png
+#begin backgrounds/kiss/Kiss_Floor.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -146,9 +146,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:adventurer-idle-2-00-sheet.png
+/build:backgrounds/kiss/Kiss_Floor.png
 
-#begin adventurer-jump-00-sheet.png
+#begin backgrounds/kiss/Kiss_Sky.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -158,9 +158,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:adventurer-jump-00-sheet.png
+/build:backgrounds/kiss/Kiss_Sky.png
 
-#begin adventurer-ladder-climb-00-sheet.png
+#begin backgrounds/mozart/Europe_BackBackBuildings.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -170,9 +170,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:adventurer-ladder-climb-00-sheet.png
+/build:backgrounds/mozart/Europe_BackBackBuildings.png
 
-#begin adventurer-run-00-sheet.png
+#begin backgrounds/mozart/Europe_BackBuildings - Bäckap.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -182,9 +182,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:adventurer-run-00-sheet.png
+/build:backgrounds/mozart/Europe_BackBuildings - Bäckap.png
 
-#begin Blockworld_Tileset.png
+#begin backgrounds/mozart/Europe_BackBuildings.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -194,9 +194,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Blockworld_Tileset.png
+/build:backgrounds/mozart/Europe_BackBuildings.png
 
-#begin Europe_BackBackBuildings.png
+#begin backgrounds/mozart/Europe_Clouds.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -206,9 +206,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Europe_BackBackBuildings.png
+/build:backgrounds/mozart/Europe_Clouds.png
 
-#begin Europe_BackBuildings.png
+#begin backgrounds/mozart/Europe_Floor.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -218,9 +218,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Europe_BackBuildings.png
+/build:backgrounds/mozart/Europe_Floor.png
 
-#begin Europe_Clouds.png
+#begin backgrounds/mozart/Europe_Mountains.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -230,9 +230,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Europe_Clouds.png
+/build:backgrounds/mozart/Europe_Mountains.png
 
-#begin Europe_Floor.png
+#begin backgrounds/mozart/Europe_Sky.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -242,9 +242,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Europe_Floor.png
+/build:backgrounds/mozart/Europe_Sky.png
 
-#begin Europe_Mountains.png
+#begin backgrounds/pixelcity/Pixelcity01_layer01.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -254,9 +254,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Europe_Mountains.png
+/build:backgrounds/pixelcity/Pixelcity01_layer01.png
 
-#begin Europe_Sky.png
+#begin backgrounds/pixelcity/Pixelcity01_layer02.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -266,9 +266,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Europe_Sky.png
+/build:backgrounds/pixelcity/Pixelcity01_layer02.png
 
-#begin mozart_idle.png
+#begin backgrounds/pixelcity/Pixelcity01_layer03.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -278,9 +278,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:mozart_idle.png
+/build:backgrounds/pixelcity/Pixelcity01_layer03.png
 
-#begin mozart_run.png
+#begin backgrounds/pixelcity/Pixelcity01_layer04.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -290,9 +290,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:mozart_run.png
+/build:backgrounds/pixelcity/Pixelcity01_layer04.png
 
-#begin Pixelcity01_layer01.png
+#begin backgrounds/pixelcity/Pixelcity01_layer05.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -302,9 +302,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Pixelcity01_layer01.png
+/build:backgrounds/pixelcity/Pixelcity01_layer05.png
 
-#begin Pixelcity01_layer02.png
+#begin backgrounds/pixelcity/Pixelcity01_layer06.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -314,9 +314,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Pixelcity01_layer02.png
+/build:backgrounds/pixelcity/Pixelcity01_layer06.png
 
-#begin Pixelcity01_layer03.png
+#begin sprites/kiss/kiss_idle.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -326,9 +326,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Pixelcity01_layer03.png
+/build:sprites/kiss/kiss_idle.png
 
-#begin Pixelcity01_layer04.png
+#begin sprites/kiss/kiss_run.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -338,9 +338,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Pixelcity01_layer04.png
+/build:sprites/kiss/kiss_run.png
 
-#begin Pixelcity01_layer05.png
+#begin sprites/kiss/kiss.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -350,9 +350,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Pixelcity01_layer05.png
+/build:sprites/kiss/kiss.png
 
-#begin Pixelcity01_layer06.png
+#begin sprites/mozart/mozart_idle.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -362,5 +362,41 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Pixelcity01_layer06.png
+/build:sprites/mozart/mozart_idle.png
+
+#begin sprites/mozart/mozart_run.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:sprites/mozart/mozart_run.png
+
+#begin sprites/mozart/mozart.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:sprites/mozart/mozart.png
+
+#begin tilesets/blockworld/Blockworld_Tileset.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:tilesets/blockworld/Blockworld_Tileset.png
 

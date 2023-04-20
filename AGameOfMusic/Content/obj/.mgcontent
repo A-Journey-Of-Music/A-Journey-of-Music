@@ -4,37 +4,43 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-air-attack-3-end-00-sheet.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-air-attack1-00-sheet.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-air-attack2-00-sheet.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-attack1-00-sheet.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-attack2-00-sheet.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-attack3-00-sheet.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-cast-00-sheet.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-cast-loop-00-sheet.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-crnr-clmb-00-sheet.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-crnr-grb-00-sheet.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-idle-2-00-sheet.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-jump-00-sheet.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-ladder-climb-00-sheet.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/adventurer-run-00-sheet.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/Blockworld_Tileset.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/Europe_BackBackBuildings.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/Europe_BackBuildings.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/Europe_Clouds.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/Europe_Floor.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/Europe_Mountains.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/Europe_Sky.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/mozart_idle.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/mozart_run.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/Pixelcity01_layer01.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/Pixelcity01_layer02.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/Pixelcity01_layer03.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/Pixelcity01_layer04.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/Pixelcity01_layer05.png</File>
-    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/Pixelcity01_layer06.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/europe/Europe_BackBackBuildings.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/europe/Europe_BackBuildings.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/europe/Europe_Clouds.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/europe/Europe_Floor.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/europe/Europe_Mountains.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/europe/Europe_Sky.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/kiss/Kiss_BackBackBuildings.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/kiss/Kiss_BackBuildings.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/kiss/Kiss_Buildings.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/kiss/Kiss_Clouds.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/kiss/Kiss_Floor.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/kiss/Kiss_Sky.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/mozart/Europe_BackBackBuildings.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/mozart/Europe_BackBuildings - Bäckap.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/mozart/Europe_BackBuildings.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/mozart/Europe_Clouds.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/mozart/Europe_Floor.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/mozart/Europe_Mountains.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/mozart/Europe_Sky.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/pixelcity/Pixelcity01_layer01.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/pixelcity/Pixelcity01_layer02.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/pixelcity/Pixelcity01_layer03.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/pixelcity/Pixelcity01_layer04.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/pixelcity/Pixelcity01_layer05.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/backgrounds/pixelcity/Pixelcity01_layer06.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/sprites/kiss/kiss_idle.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/sprites/kiss/kiss_run.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/sprites/kiss/kiss.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/sprites/mozart/mozart_idle.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/sprites/mozart/mozart_run.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/sprites/mozart/mozart.png</File>
+    <File>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/tilesets/blockworld/Blockworld_Tileset.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
