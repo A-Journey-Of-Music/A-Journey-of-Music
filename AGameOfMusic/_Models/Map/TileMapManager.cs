@@ -12,6 +12,7 @@ public class TileMapManager
     private SpriteBatch spriteBatch = new SpriteBatch(Globals.GraphicsDevice);
     private TmxMap map;
     private Texture2D tileset;
+    public Collision collisions {get; set;}
     int tilesetTilesWide;
     int tileWidth;
     int tileHeight;
@@ -27,6 +28,7 @@ public class TileMapManager
         tilesetTilesWide = _tilesetTilesWide;
         tileWidth = _tileWidth;
         tileHeight = _tileHeight;
+        collisions = new Collision(map, tilesetTilesWide);
     }
 
     public void Update(float playerPosition, int screenWidth)

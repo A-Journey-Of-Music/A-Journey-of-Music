@@ -17,15 +17,15 @@ public class GameManager
 
     public GameManager(int height, int width)
     {
-        _borderThreshhold = 20;
+        _borderThreshhold = 64;
         _screenHeight = height;
         _screenWidth = width;
         //TileMap-Code
         _map = new TmxMap("Content/1.tmx");
         _tileset = Globals.Content.Load<Texture2D>("Blockworld_Tileset");
         _tmm = new TileMapManager(_map, _tileset, 48, 48, 48);
-
-        _playerCharacterKeyboard = new(Globals.Content.Load<Texture2D>("mozart_idle"), new(_screenWidth / 2, _screenHeight / 2));
+        
+        _playerCharacterKeyboard = new(Globals.Content.Load<Texture2D>("mozart_idle"));
         _playerCharacterKeyboard.AddAnimation("run", new(Globals.Content.Load<Texture2D>("mozart_run"), 6, 0.1f));
         _bgm.AddLayer(new(Globals.Content.Load<Texture2D>("Europe_Sky"), 0.0f, 0.0f, _screenHeight, _screenWidth));
         _bgm.AddLayer(new(Globals.Content.Load<Texture2D>("Europe_Clouds"), 0.1f, 0.2f, _screenHeight, _screenWidth));
@@ -38,7 +38,7 @@ public class GameManager
     public void Update()
     {
         InputManager.Update();
-        _playerCharacterKeyboard.Update(_screenHeight, _screenWidth, _borderThreshhold);
+        _playerCharacterKeyboard.Update(_screenHeight, _screenWidth, _borderThreshhold, _tmm.collisions);
         _bgm.Update(InputManager.Movement);
         _tmm.Update(InputManager.Movement, _screenWidth);
     }
