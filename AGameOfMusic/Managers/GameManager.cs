@@ -1,6 +1,5 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using MonoGame.Extended.Tiled;
 using TiledSharp;
 
 namespace AGameOfMusic;
@@ -24,10 +23,10 @@ public class GameManager
         //TileMap-Code
         _map = new TmxMap("Content/1.tmx");
         _tileset = Globals.Content.Load<Texture2D>("Blockworld_Tileset");
-        _tmm = new TileMapManager(_map,_tileset,48,48,48);
-        
-        _playerCharacterKeyboard = new(Globals.Content.Load<Texture2D>("mozart_idle"), new(_screenWidth/2,_screenHeight/2));
-        _playerCharacterKeyboard.AddAnimation("run", new(Globals.Content.Load<Texture2D>("mozart_run"),6,0.1f));
+        _tmm = new TileMapManager(_map, _tileset, 48, 48, 48);
+
+        _playerCharacterKeyboard = new(Globals.Content.Load<Texture2D>("mozart_idle"), new(_screenWidth / 2, _screenHeight / 2));
+        _playerCharacterKeyboard.AddAnimation("run", new(Globals.Content.Load<Texture2D>("mozart_run"), 6, 0.1f));
         _bgm.AddLayer(new(Globals.Content.Load<Texture2D>("Europe_Sky"), 0.0f, 0.0f, _screenHeight, _screenWidth));
         _bgm.AddLayer(new(Globals.Content.Load<Texture2D>("Europe_Clouds"), 0.1f, 0.2f, _screenHeight, _screenWidth));
         _bgm.AddLayer(new(Globals.Content.Load<Texture2D>("Europe_Mountains"), 0.2f, 0.5f, _screenHeight, _screenWidth));
@@ -45,10 +44,13 @@ public class GameManager
     }
     public void Draw()
     {
-        //_tmm.Draw();
-        //Fix Background and Position
-        //_bgm.Draw();
+        // Draw background using the original SpriteBatch
+        _bgm.Draw();
+        Globals.SpriteBatch.End();
+        // Begin drawing the tilemap using a new SpriteBatch
+        _tmm.Draw(_screenHeight,_screenWidth, _playerCharacterKeyboard.getPlayerPosition());
+        Globals.SpriteBatch.Begin(sortMode: SpriteSortMode.FrontToBack);
+        // Draw player character after the tilemap
         _playerCharacterKeyboard.Draw();
-        _tmm.Draw(_screenHeight);
     }
 }

@@ -3,8 +3,12 @@ using Microsoft.Xna.Framework.Input;
 
 namespace AGameOfMusic;
 
+
 public static class InputManager
 {
+     private const float GRAVITY = 9.81f; // Acceleration due to gravity in m/s^2
+    private const float JUMP_FORCE = 250f; // The force applied when jumping
+    private static Vector2 velocity;
     private static MouseState _lastMouseState;
     private static Vector2 _direction;
     public static Vector2 Direction => _direction;
@@ -46,8 +50,27 @@ public static class InputManager
             _direction.X++;
             Movement = -_speed;
         }
+        if (keyboardState.IsKeyDown(Keys.Space))
+        {
+            Jump();
+            // Apply gravity to the player
+            velocity.Y += GRAVITY * (float)Globals.ElapsedSeconds;
+
+        // Update the player's position based on their velocity
+            _direction += velocity * (float)Globals.ElapsedSeconds;
+        }
 
         MouseClicked = (Mouse.GetState().LeftButton == ButtonState.Pressed) && (_lastMouseState.LeftButton == ButtonState.Released);
         _lastMouseState = Mouse.GetState();
+    }
+
+    public static void Jump()
+    {
+        // Only allow jumping if the player is on the ground (velocity.Y == 0)
+        if (velocity.Y == 0)
+        {
+            // Apply an upward force to the player
+            velocity.Y -= JUMP_FORCE;
+        }
     }
 }

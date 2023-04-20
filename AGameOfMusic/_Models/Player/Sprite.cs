@@ -17,6 +17,10 @@ public class Sprite{
         origin = new(tex.Width/2, tex.Height/2);
     }
 
+    public Vector2 getPlayerPosition(){
+        return position;
+    }
+
 
     public virtual void Draw(){
         _anims.Draw(position);
