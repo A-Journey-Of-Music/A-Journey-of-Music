@@ -25,6 +25,8 @@ public class PlayerCharacterKeyboard : Sprite
         if (position.Y > _screenHeight - _borderThreshhold)
             position.Y = _screenHeight - _borderThreshhold;
 
+        _camera.Position = new Vector2(position.X - _screenWidth / 2, position.Y - _screenHeight / 2);
+
         return position;
     }
 

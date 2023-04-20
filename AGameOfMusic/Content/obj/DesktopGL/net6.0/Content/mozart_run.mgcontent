@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/mozart_run.png</SourceFile>
-  <SourceTime>2023-04-20T17:02:37.6962583+02:00</SourceTime>
+  <SourceTime>2023-04-20T17:08:03.7448176+02:00</SourceTime>
   <DestFile>/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/Content/bin/DesktopGL/Content/mozart_run.xnb</DestFile>
-  <DestTime>2023-04-20T17:03:11.0413156+02:00</DestTime>
+  <DestTime>2023-04-20T17:12:11.2772398+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

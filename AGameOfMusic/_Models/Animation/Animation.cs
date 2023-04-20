@@ -52,7 +52,7 @@ public class Animation
         }
     }
 
-    public void Draw(Vector2 position){
-        Globals.SpriteBatch.Draw(_texture, position, _sourceRectangles[_frame], Color.White, 0, Vector2.Zero ,Vector2.One, SpriteEffects.None, 1);
+    public void Draw(Vector2 position, SpriteBatch _spriteBatch){
+        _spriteBatch.Draw(_texture, position, _sourceRectangles[_frame], Color.White, 0, Vector2.Zero ,Vector2.One, SpriteEffects.None, 1);
     }
 }

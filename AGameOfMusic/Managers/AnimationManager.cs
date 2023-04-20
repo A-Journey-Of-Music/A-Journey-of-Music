@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace AGameOfMusic;
 
@@ -23,7 +24,7 @@ public class AnimationManager{
         }
     }
 
-    public void Draw(Vector2 position){
-        _animations[_lastKey].Draw(position);
+    public void Draw(Vector2 position, SpriteBatch _spriteBatch){
+        _animations[_lastKey].Draw(position, _spriteBatch);
     }
 }

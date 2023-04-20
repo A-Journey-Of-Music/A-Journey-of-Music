@@ -9,12 +9,15 @@ public class Sprite{
     protected readonly AnimationManager _anims = new();
     protected Vector2 position;
     protected int speed;
+    protected PlayerCamera _camera;
+    private SpriteBatch _spriteBatch = new SpriteBatch(Globals.GraphicsDevice);
 
     public Sprite(Texture2D tex, Vector2 pos){
         texture = tex;
         position = pos;
         speed = 300;
         origin = new(tex.Width/2, tex.Height/2);
+        _camera = new PlayerCamera(pos);
     }
 
     public Vector2 getPlayerPosition(){
@@ -23,6 +26,8 @@ public class Sprite{
 
 
     public virtual void Draw(){
-        _anims.Draw(position);
+        _spriteBatch.Begin(transformMatrix: _camera.GetViewMatrix());
+        _anims.Draw(position, _spriteBatch);
+        _spriteBatch.End();
     }
 }

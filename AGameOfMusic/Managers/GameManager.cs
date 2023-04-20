@@ -48,9 +48,10 @@ public class GameManager
         _bgm.Draw();
         Globals.SpriteBatch.End();
         // Begin drawing the tilemap using a new SpriteBatch
-        _tmm.Draw(_screenHeight,_screenWidth, _playerCharacterKeyboard.getPlayerPosition());
-        Globals.SpriteBatch.Begin(sortMode: SpriteSortMode.FrontToBack);
+        _tmm.Draw(_screenHeight, _screenWidth, _playerCharacterKeyboard.getPlayerPosition());
         // Draw player character after the tilemap
         _playerCharacterKeyboard.Draw();
+        Globals.SpriteBatch.Begin(sortMode: SpriteSortMode.FrontToBack);
+
     }
 }
