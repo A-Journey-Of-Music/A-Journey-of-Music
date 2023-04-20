@@ -7,7 +7,7 @@ namespace AGameOfMusic;
 public static class InputManager
 {
     private const float GRAVITY = 9.81f; // Acceleration due to gravity in m/s^2
-    private const float JUMP_FORCE = 250f; // The force applied when jumping
+    private const float JUMP_FORCE = 300f; // The force applied when jumping
     private static Vector2 velocity;
     private static MouseState _lastMouseState;
     private static Vector2 _direction;
@@ -23,14 +23,18 @@ public static class InputManager
         _direction = Vector2.Zero;
         //GamePad
         GamePadCapabilities capabilities = GamePad.GetCapabilities(PlayerIndex.One);
-        if(capabilities.IsConnected){
+        if (capabilities.IsConnected)
+        {
             GamePadState gamepadState = GamePad.GetState(PlayerIndex.One);
-            if(capabilities.HasDPadLeftButton && capabilities.HasDPadRightButton){
-                if(gamepadState.IsButtonDown(Buttons.DPadLeft)){
+            if (capabilities.HasDPadLeftButton && capabilities.HasDPadRightButton)
+            {
+                if (gamepadState.IsButtonDown(Buttons.DPadLeft))
+                {
                     _direction.X--;
                     Movement = _speed;
                 }
-                if(gamepadState.IsButtonDown(Buttons.DPadRight)){
+                if (gamepadState.IsButtonDown(Buttons.DPadRight))
+                {
                     _direction.X++;
                     Movement = -_speed;
                 }
@@ -53,11 +57,13 @@ public static class InputManager
         if (keyboardState.IsKeyDown(Keys.Space))
         {
             Jump();
+            
             // Apply gravity to the player
             velocity.Y += GRAVITY * (float)Globals.ElapsedSeconds;
 
-        // Update the player's position based on their velocity
+            // Update the player's position based on their velocity
             _direction += velocity * (float)Globals.ElapsedSeconds;
+            
         }
 
         MouseClicked = (Mouse.GetState().LeftButton == ButtonState.Pressed) && (_lastMouseState.LeftButton == ButtonState.Released);

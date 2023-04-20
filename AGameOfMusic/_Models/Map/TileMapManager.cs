@@ -17,6 +17,8 @@ public class TileMapManager
     int tileWidth;
     int tileHeight;
 
+    private float mapPosition;
+
     private Vector2 cameraPosition = new Vector2(0,0);
 
     private Matrix matrix;
@@ -29,12 +31,13 @@ public class TileMapManager
         tileWidth = _tileWidth;
         tileHeight = _tileHeight;
         collisions = new Collision(map, tilesetTilesWide);
+        mapPosition = 0;
     }
 
     public void Update(float playerPosition, int screenWidth)
     {
         // Update the matrix used for drawing
-        float mapPosition = -playerPosition + (screenWidth / 2);
+        mapPosition = -playerPosition + (screenWidth / 2);
 
         // Ensure that the map stays within the bounds of the screen
 

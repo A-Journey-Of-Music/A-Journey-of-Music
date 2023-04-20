@@ -18,6 +18,8 @@ public class Sprite{
         speed = 300;
         origin = new(tex.Width/2, tex.Height/2);
         _camera = new PlayerCamera(position);
+        // Adjust the camera position at the beginning of the game
+        _camera._position = new Vector2(position.X - Globals.GraphicsDevice.Viewport.Width/2, _camera._position.Y);
     }
 
     public Vector2 getPlayerPosition(){
