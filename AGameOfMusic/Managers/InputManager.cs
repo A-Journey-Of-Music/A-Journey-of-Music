@@ -6,7 +6,7 @@ namespace AGameOfMusic;
 
 public static class InputManager
 {
-     private const float GRAVITY = 9.81f; // Acceleration due to gravity in m/s^2
+    private const float GRAVITY = 9.81f; // Acceleration due to gravity in m/s^2
     private const float JUMP_FORCE = 250f; // The force applied when jumping
     private static Vector2 velocity;
     private static MouseState _lastMouseState;

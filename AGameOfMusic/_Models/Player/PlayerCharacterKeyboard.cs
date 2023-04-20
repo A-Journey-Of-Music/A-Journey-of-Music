@@ -5,12 +5,15 @@ namespace AGameOfMusic;
 
 public class PlayerCharacterKeyboard : Sprite
 {
+    private const float GRAVITY = 500f;
+    private Vector2 velocity;
     public PlayerCharacterKeyboard(Texture2D tex, Vector2 pos) : base(tex, pos)
     {
-        _anims.AddAnimation("idle", new(tex, 5,0.1f));
+        _anims.AddAnimation("idle", new(tex, 5, 0.1f));
     }
 
-    public void AddAnimation(string name, Animation anim){
+    public void AddAnimation(string name, Animation anim)
+    {
         _anims.AddAnimation(name, anim);
     }
 
@@ -18,16 +21,28 @@ public class PlayerCharacterKeyboard : Sprite
     {
         if (position.X < 0 + _borderThreshhold)
             position.X = 0 + _borderThreshhold;
-        if (position.Y < 0 + _borderThreshhold)
-            position.Y = 0 + _borderThreshhold;
         if (position.X > _screenWidth - _borderThreshhold)
             position.X = _screenWidth - _borderThreshhold;
-        if (position.Y > _screenHeight - _borderThreshhold)
-            position.Y = _screenHeight - _borderThreshhold;
-
-        _camera.Position = new Vector2(position.X - _screenWidth / 2, position.Y - _screenHeight / 2);
-
         return position;
+    }
+
+    private void applyGravity(int _screenHeight, int _screenWidth, int _borderThreshhold){
+        velocity.Y += GRAVITY * (float)Globals.ElapsedSeconds;
+        // Update the player's position based on their velocity
+        position += velocity * (float)Globals.ElapsedSeconds;
+        
+        // Keep the player within the bounds of the screen
+        position = isWithinBounds(position, _screenHeight, _screenWidth, _borderThreshhold);
+        
+        // Check if the player has hit the bottom of the screen
+        if (position.Y >= _screenHeight - _borderThreshhold)
+        {
+            // Stop applying gravity
+            velocity.Y = 0;
+            
+            // Set the player's position to the bottom corner of the screen
+            position.Y = _screenHeight - _borderThreshhold;
+        }
     }
 
     public void Update(int _screenHeight, int _screenWidth, int _borderThreshhold)
@@ -37,8 +52,13 @@ public class PlayerCharacterKeyboard : Sprite
         {
             var dir = Vector2.Normalize(InputManager.Direction);
             position += dir * speed * Globals.ElapsedSeconds;
+            if (dir.X != 0)
+            {
+                _camera.Position = new Vector2(position.X - _screenWidth / 2, _camera.Position.Y);
+            }
             position = isWithinBounds(position, _screenHeight, _screenWidth, _borderThreshhold);
             _anims.Update("run");
         }
+        applyGravity(_screenHeight, _screenWidth, _borderThreshhold);
     }
 }
