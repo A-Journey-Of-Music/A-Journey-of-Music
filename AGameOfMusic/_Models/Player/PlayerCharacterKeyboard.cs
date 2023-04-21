@@ -48,9 +48,14 @@ public class PlayerCharacterKeyboard : Sprite
         
     }
 
+    
     private void isColliding(Collision collision){
-        collision.HandleCollisions(new Rectangle((int)position.X, (int)position.Y, texture.Width, texture.Height), ref position);
+        Vector2 newposition = position;
+        if(collision.isColliding(position)){
+            position = newposition;
+        }
     }
+    
 
     public void Update(int _screenHeight, int _screenWidth, int _borderThreshhold, Collision collision)
     {
@@ -67,6 +72,6 @@ public class PlayerCharacterKeyboard : Sprite
             _anims.Update("run");
         }
         applyGravity(_screenHeight, _screenWidth, _borderThreshhold);
-        //isColliding(collision);
+        isColliding(collision);
     }
 }

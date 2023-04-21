@@ -348,7 +348,8 @@
     ]
   },
   "packageFolders": {
-    "/home/janneumann/.nuget/packages/": {}
+    "/home/janneumann/.nuget/packages/": {},
+    "/home/janneumann/.local/share/godot/mono/GodotNuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -359,8 +360,12 @@
       "packagesPath": "/home/janneumann/.nuget/packages/",
       "outputPath": "/home/janneumann/Dokumente/Daten/Projekte/Universität/6. Semester/Games Und Gaming/a-journey-of-music/AGameOfMusic/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/home/janneumann/.local/share/godot/mono/GodotNuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/home/janneumann/.nuget/NuGet/NuGet.Config"
+        "/home/janneumann/.nuget/NuGet/NuGet.Config",
+        "/home/janneumann/.nuget/NuGet/config/Godot.Offline.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

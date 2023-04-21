@@ -4,14 +4,14 @@
   <chunksize width="64" height="16"/>
  </editorsettings>
  <tileset firstgid="1" name="Blockworld_Tileset" tilewidth="48" tileheight="48" tilecount="16" columns="4">
-  <image source="Blockworld_Tileset.png" width="192" height="192"/>
+  <image source="../../tilesets/blockworld/Blockworld_Tileset.png" width="192" height="192"/>
   <tile id="0">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
    <objectgroup draworder="index" id="2">
     <object id="1" x="0" y="0" width="48" height="48"/>
    </objectgroup>
-   <properties>
-   <property name="collision" type="bool" value="true"/>
-  </properties>
   </tile>
  </tileset>
  <layer id="1" name="Kachelebene 1" width="64" height="16">
